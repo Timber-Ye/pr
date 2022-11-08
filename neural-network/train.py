@@ -87,7 +87,7 @@ def main(args):
 
     model = mlp.get_model(INPUT_DIM, NUM_CLASSES, HIDDEN)
 
-    global_epoch = 0  # checkpoint 
+    global_epoch = 0  # checkpoint
     for epoch in range(args.epoch):
         log_string('**** Epoch %d (%d/%s) ****' % (global_epoch + 1, epoch + 1, args.epoch))
         lr = args.learning_rate
