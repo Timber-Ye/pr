@@ -4,11 +4,7 @@
 # @Author  : Hanchiao
 # @File    : multiple_layer_perceptron.py
 
-import nnlayers
-
-input_dim = 3
-output_dim = 3
-num_hidden = 8
+from . import nnlayers
 
 
 class get_model:
