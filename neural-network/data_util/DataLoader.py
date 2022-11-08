@@ -8,7 +8,7 @@ import pandas as pd
 
 
 class DataSet:
-    def __init__(self, data_root='samples.csv', split='train', sample_idx=None):
+    def __init__(self, data_root='samples.csv', sample_idx=None):
         data = pd.read_csv(data_root, header=None)
         if sample_idx is not None:
             labels = data.iloc[sample_idx, -1]
@@ -21,11 +21,10 @@ class DataSet:
         labels = pd.get_dummies(labels)
         self.Labels = labels.to_numpy()
         self.Features = features.to_numpy()
-
-        print("Totally {} samples in {} set".format(self.Features.shape[0], split))
+        self.Num = self.Features.shape[0]
 
     def __len__(self):
-        return self.Features.shape[0]
+        return self.Num
 
     def __getitem__(self, item):
         return self.Features[item, :], self.Labels[item, :]
@@ -35,12 +34,14 @@ class DataLoader:
     def __init__(self, dataset, batch_size, shuffle=True):
         self.Dataset = dataset
         self.batch_size = batch_size
-        self.Index = np.arange(len(dataset))
+        self.Indices = np.arange(len(dataset))
+        self.Num = np.floor(self.Indices.shape[0] / self.batch_size).astype(int)
         if shuffle:
-            np.random.shuffle(self.Index)
+            np.random.shuffle(self.Indices)
 
-    def __call__(self):
-        _l = np.floor(self.Index.shape[0] / self.batch_size)
-        for i in range(_l):
-            batch_indices = self.Index[i * self.batch_size:min((i + 1) * self.batch_size, self.Index.shape[0])]
-            return self.Dataset[batch_indices]
+    def __getitem__(self, item):
+        batch_indices = self.Indices[item * self.batch_size:min((item + 1) * self.batch_size, self.Indices.shape[0])]
+        return self.Dataset[batch_indices]
+
+    def __len__(self):
+        return self.Num
