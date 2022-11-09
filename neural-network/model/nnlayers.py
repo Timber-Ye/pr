@@ -27,11 +27,11 @@ class Linear:
     def backward(self, _x, _error):
         self._grad_weights = _x.T @ _error
         self._grad_bias = _error.T @ np.ones(_x.shape[0])
-        return _error @ self.Weights.T
+        return (_error - self.Bias) @ self.Weights.T
 
     def update(self, _lr):
-        self.Weights -= self._grad_weights * _lr
-        self.Bias -= self._grad_bias * _lr
+        self.Weights += self._grad_weights * _lr
+        self.Bias += self._grad_bias * _lr
 
     def __call__(self, _net):
         return self.forward(_net)
@@ -65,13 +65,14 @@ class Relu:
 
 class Tanh:
     def __init__(self):
-        pass
+        self.f = None
 
     def forward(self, _net):
-        return np.tanh(_net)
+        self.f = np.tanh(_net)
+        return self.f
 
     def backward(self, _net, _error):
-        return 1 / (np.cosh(_net) ** 2) * _error
+        return (1 - self.f ** 2) * _error
 
     def __call__(self, _net):
         return self.forward(_net)
@@ -79,13 +80,14 @@ class Tanh:
 
 class Sigmoid:
     def __init__(self):
-        pass
+        self.f = None
 
     def forward(self, _net):
-        return 1 / (1 + np.exp(-_net))
+        self.f = 1 / (1 + np.exp(-_net))
+        return self.f
 
     def backward(self, _net, _error):
-        return _net * (1 - _net) * _error
+        return self.f * (1 - self.f) * _error
 
     def __call__(self, _net):
         return self.forward(_net)

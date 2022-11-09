@@ -13,6 +13,7 @@ from tqdm import tqdm
 from data_util.DataLoader import DataSet, DataLoader
 from model import multiple_layer_perceptron as mlp
 import numpy as np
+from time import sleep
 
 categories = ['w_1', 'w_2', 'w_3']
 labels = {cls: i for i, cls in enumerate(categories)}
@@ -47,7 +48,7 @@ def main(args):
 
     def squared_loss(y_hat, y):  # @save
         """均方损失"""
-        return (y_hat - y.reshape(y_hat.shape)) ** 2 / 2
+        return (y.reshape(y_hat.shape) - y_hat) ** 2 / 2, y.reshape(y_hat.shape) - y_hat
 
     '''CREATE DIR'''
     time_str = str(datetime.datetime.now().strftime('%Y-%m-%d_%H-%M'))
@@ -77,6 +78,7 @@ def main(args):
 
     data_root = ROOT_DIR + '/samples.csv'
     batch_size = args.batch_size
+    learning_rate = args.learning_rate
     NUM_CLASSES = len(categories)
     INPUT_DIM = args.dim
     HIDDEN = args.hidden
@@ -101,27 +103,31 @@ def main(args):
         for i, (features, target) in tqdm(enumerate(training_data_loader),
                                           total=len(training_data_loader), smoothing=0.9):
             pred_target = net(features)
-            loss = squared_loss(pred_target, target)
-            net.backward(np.sum(loss, axis=0))
+            loss, delta = squared_loss(pred_target, target)
+            net.backward(delta)
+            net.update(learning_rate)
 
-            correct = np.sum(np.all(pred_target == target, axis=1))
+            pred_label = np.argmax(pred_target, axis=1)
+            label = np.argmax(target, axis=1)
+            correct = np.sum(pred_label == label)
             total_correct += correct
             total_seen += batch_size
-            loss_sum += loss
+            loss_sum += loss.sum()
 
+        sleep(0.3)
         log_string('Training mean loss: %f' % (loss_sum / num_batches))
         log_string('Training accuracy: %f' % (total_correct / float(total_seen)))
 
-        if epoch % 5 == 0:
-            logger.info('Save model...')
-            savepath = str(checkpoints_dir) + '/model.pth'
-            log_string('Saving at %s' % savepath)
-            state = {
-                'epoch': epoch,
-                'model_state_dict': net.state_dict(),
-            }
-            log_string('Saving model....')
-
+        # if epoch % 5 == 0:
+        #     logger.info('Save model...')
+        #     savepath = str(checkpoints_dir) + '/model.pth'
+        #     log_string('Saving at %s' % savepath)
+        #     state = {
+        #         'epoch': epoch,
+        #         'model_state_dict': net.state_dict(),
+        #     }
+        #     log_string('Saving model....')
+        #
         global_epoch += 1
 
 
