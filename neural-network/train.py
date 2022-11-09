@@ -12,6 +12,7 @@ import os
 from tqdm import tqdm
 from data_util.DataLoader import DataSet, DataLoader
 from model import multiple_layer_perceptron as mlp
+import numpy as np
 
 categories = ['w_1', 'w_2', 'w_3']
 labels = {cls: i for i, cls in enumerate(categories)}
@@ -85,7 +86,7 @@ def main(args):
     training_data_loader = DataLoader(training_dataset, batch_size, shuffle=True)
     log_string("The number of training data is: %d." % len(training_dataset))
 
-    model = mlp.get_model(INPUT_DIM, NUM_CLASSES, HIDDEN)
+    net = mlp.get_model(INPUT_DIM, NUM_CLASSES, HIDDEN)
 
     global_epoch = 0  # checkpoint
     for epoch in range(args.epoch):
@@ -99,7 +100,27 @@ def main(args):
 
         for i, (features, target) in tqdm(enumerate(training_data_loader),
                                           total=len(training_data_loader), smoothing=0.9):
+            pred_target = net(features)
+            loss = squared_loss(pred_target, target)
+            net.backward(np.sum(loss, axis=0))
 
+            correct = np.sum(np.all(pred_target == target, axis=1))
+            total_correct += correct
+            total_seen += batch_size
+            loss_sum += loss
+
+        log_string('Training mean loss: %f' % (loss_sum / num_batches))
+        log_string('Training accuracy: %f' % (total_correct / float(total_seen)))
+
+        if epoch % 5 == 0:
+            logger.info('Save model...')
+            savepath = str(checkpoints_dir) + '/model.pth'
+            log_string('Saving at %s' % savepath)
+            state = {
+                'epoch': epoch,
+                'model_state_dict': net.state_dict(),
+            }
+            log_string('Saving model....')
 
         global_epoch += 1
 
