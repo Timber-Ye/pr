@@ -92,9 +92,10 @@ def main(args):
 
     global_epoch = 0  # checkpoint
     for epoch in range(args.epoch):
-        log_string('**** Epoch %d (%d/%s) ****' % (global_epoch + 1, epoch + 1, args.epoch))
         lr = args.learning_rate
-        log_string('Learning rate:%f' % lr)
+        if epoch % 100 == 99:
+            log_string('**** Epoch %d (%d/%s) ****' % (global_epoch + 1, epoch + 1, args.epoch))
+            log_string('Learning rate:%f' % lr)
         num_batches = len(training_data_loader)
         total_correct = 0
         total_seen = 0
@@ -114,9 +115,10 @@ def main(args):
             total_seen += batch_size
             loss_sum += loss.sum()
 
-        sleep(0.3)
-        log_string('Training mean loss: %f' % (loss_sum / num_batches))
-        log_string('Training accuracy: %f' % (total_correct / float(total_seen)))
+        if epoch % 100 == 99:
+            sleep(0.3)
+            log_string('Training mean loss: %f' % (loss_sum / num_batches))
+            log_string('Training accuracy: %f' % (total_correct / float(total_seen)))
 
         # if epoch % 5 == 0:
         #     logger.info('Save model...')
