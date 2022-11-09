@@ -27,7 +27,7 @@ class Linear:
     def backward(self, _x, _error):
         self._grad_weights = _x.T @ _error
         self._grad_bias = _error.T @ np.ones(_x.shape[0])
-        return (_error - self.Bias) @ self.Weights.T
+        return _error @ self.Weights.T
 
     def update(self, _lr):
         self.Weights += self._grad_weights * _lr
