@@ -44,6 +44,9 @@ class get_model:
     def __str__(self):
         return "[Input Layer to Hidden Layer]\n {}\n\n[Hidden Layer to Output Layer]".format(self.linear1, self.linear2)
 
+    def __call__(self, _x):
+        return self.forward(_x)
+
     def state_dict(self):
         state = {
             'Linear_1': self.linear1.state_dict(),
