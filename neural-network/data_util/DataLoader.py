@@ -36,12 +36,37 @@ class DataLoader:
         self.batch_size = batch_size
         self.Indices = np.arange(len(dataset))
         self.Num = np.floor(self.Indices.shape[0] / self.batch_size).astype(int)
-        if shuffle:
+        self.shuffle = shuffle
+
+    def __iter__(self):
+        if self.shuffle:
             np.random.shuffle(self.Indices)
 
-    def __getitem__(self, item):
-        batch_indices = self.Indices[item * self.batch_size:min((item + 1) * self.batch_size, self.Indices.shape[0])]
+        self.cnt = 0
+        return self
+
+    def __next__(self):
+        if not self.cnt < self.Num:
+            raise StopIteration
+        batch_indices = self.Indices[self.cnt * self.batch_size:min((self.cnt + 1) * self.batch_size, self.Indices.shape[0])]
+        self.cnt += 1
         return self.Dataset[batch_indices]
 
     def __len__(self):
         return self.Num
+
+
+if __name__ == '__main__':
+    data_root = '../samples.csv'
+    training_dataset = DataSet(data_root)
+    training_data_loader = DataLoader(training_dataset, 1, shuffle=True)
+
+    from tqdm import tqdm
+    from time import sleep
+
+    for epoch in range(2):
+        print('Epoch %d' % (epoch+1))
+        for i, (features, target) in tqdm(enumerate(training_data_loader),
+                                          total=len(training_data_loader), smoothing=0.9):
+            print('features: {}\t target:{}'.format(features, target))
+            sleep(0.5)
