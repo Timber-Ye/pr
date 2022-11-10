@@ -8,15 +8,16 @@ import pandas as pd
 
 
 class DataSet:
-    def __init__(self, data_root='samples.csv', sample_idx=None):
+    def __init__(self, data_root='samples.csv', split='train', eval_sample_idx=None):
         data = pd.read_csv(data_root, header=None)
-        if sample_idx is not None:
-            labels = data.iloc[sample_idx, -1]
-            features = data.iloc[sample_idx, :-1]
-
+        if split == 'train':
+            sample_idx = [_i for _i in range(data.shape[0]) if _i not in eval_sample_idx]
         else:
-            labels = data.iloc[:, -1]
-            features = data.iloc[:, :-1]
+            assert eval_sample_idx is not None
+            sample_idx = eval_sample_idx
+
+        labels = data.iloc[sample_idx, -1]
+        features = data.iloc[sample_idx, :-1]
 
         labels = pd.get_dummies(labels)
         self.Labels = labels.to_numpy()
