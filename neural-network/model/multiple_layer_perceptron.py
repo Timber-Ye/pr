@@ -3,17 +3,12 @@
 # @Time    : 2022/11/7 14:05
 # @Author  : Hanchiao
 # @File    : multiple_layer_perceptron.py
-import numpy as np
 
 from . import nnlayers
 
 
 class get_model:
     def __init__(self, _input_dim, _output_dim, _num_hidden):
-        # self.linear1 = nnlayers.Linear(_input_dim, _num_hidden,
-        #                                0.05*np.ones((_input_dim, _num_hidden)), np.zeros((1, _num_hidden)))
-        # self.linear2 = nnlayers.Linear(_num_hidden, _output_dim,
-        #                                0.05*np.ones((_num_hidden, _output_dim)), np.zeros((1, _output_dim)))
         self.linear1 = nnlayers.Linear(_input_dim, _num_hidden)
         self.linear2 = nnlayers.Linear(_num_hidden, _output_dim)
         self.tanh = nnlayers.Tanh()
