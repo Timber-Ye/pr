@@ -34,8 +34,8 @@ def parse_args():
     parser.add_argument('--batch_size', type=int, default=4, help='Batch Size during training [default: 4]')
     parser.add_argument('--learning_rate', type=float, default=1e-3, help='Initial learning rate [default: 0.001]')
     parser.add_argument('--log_dir', type=str, default=None, help='Log path [default: None]')
-    parser.add_argument('--training_data', type=list, default=None,
-                        help='Which samples to use for train [default: None]')
+    parser.add_argument('--eval_data', type=int, nargs='+', default=None,
+                        help='Which samples to use for evaluate [default: None]')
 
     return parser.parse_args()
 
@@ -84,13 +84,18 @@ def main(args):
     HIDDEN = args.hidden
 
     print("start loading training data ...")
-    training_dataset = DataSet(data_root, sample_idx=args.training_data)
+    training_dataset = DataSet(data_root, eval_sample_idx=args.eval_data, split='train')
     training_data_loader = DataLoader(training_dataset, batch_size, shuffle=True)
     log_string("The number of training data is: %d." % len(training_dataset))
 
+    print("start loading training data ...")
+    validating_dataset = DataSet(data_root, eval_sample_idx=args.eval_data, split='validate')
+    validating_data_loader = DataLoader(validating_dataset, 1, shuffle=True)
+    log_string("The number of validating data is: %d." % len(validating_dataset))
+
     net = mlp.get_model(INPUT_DIM, NUM_CLASSES, HIDDEN)
 
-    global_epoch = 0  # checkpoint
+    global_epoch = 0  # checkpoint TODO
     for epoch in range(args.epoch):
         lr = args.learning_rate
         if epoch % 100 == 99:
@@ -129,8 +134,10 @@ def main(args):
         #         'model_state_dict': net.state_dict(),
         #     }
         #     log_string('Saving model....')
-        #
+        # TODO
         global_epoch += 1
+
+        # test TODO
 
 
 if __name__ == '__main__':
