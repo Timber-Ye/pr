@@ -88,7 +88,7 @@ def main(args):
     training_data_loader = DataLoader(training_dataset, batch_size, shuffle=True)
     log_string("The number of training data is: %d." % len(training_dataset))
 
-    print("start loading training data ...")
+    print("start loading validating data ...")
     validating_dataset = DataSet(data_root, eval_sample_idx=args.eval_data, split='validate')
     validating_data_loader = DataLoader(validating_dataset, 1, shuffle=True)
     log_string("The number of validating data is: %d." % len(validating_dataset))
@@ -106,7 +106,7 @@ def main(args):
         total_seen = 0
         loss_sum = 0
 
-        for i, (features, target) in tqdm(enumerate(training_data_loader),
+        for i, (features, target) in tqdm(enumerate(training_data_loader), delay=3, colour='blue',
                                           total=len(training_data_loader), smoothing=0.9):
             pred_target = net(features)
             loss, delta = squared_loss(pred_target, target)
@@ -120,7 +120,7 @@ def main(args):
             total_seen += batch_size
             loss_sum += loss.sum()
 
-        if epoch % 100 == 99:
+        if epoch % 200 == 199:
             sleep(0.3)
             log_string('Training mean loss: %f' % (loss_sum / num_batches))
             log_string('Training accuracy: %f' % (total_correct / float(total_seen)))
@@ -135,9 +135,20 @@ def main(args):
         #     }
         #     log_string('Saving model....')
         # TODO
-        global_epoch += 1
 
-        # test TODO
+            # test
+            total_correct = 0
+            for i, (features, target) in tqdm(enumerate(validating_data_loader), delay=3, colour='red',
+                                              total=len(validating_data_loader), smoothing=0.9, leave=True):
+                pred_target = net(features)
+                pred_label = np.argmax(pred_target, axis=1)
+                label = np.argmax(target, axis=1)
+                correct = np.sum(pred_label == label)
+                total_correct += correct
+
+            log_string('Validating accuracy: %f\n' % (total_correct / float(len(validating_dataset))))
+
+        global_epoch += 1
 
 
 if __name__ == '__main__':
