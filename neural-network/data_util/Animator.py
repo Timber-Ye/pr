@@ -77,3 +77,10 @@ class Animator:
         self.config_axes()
         display.display(self.fig)
         display.clear_output(wait=True)
+        
+    def save(self, filename):
+        for x, y, fmt in zip(self.X, self.Y, self.fmts):
+            self.axes[0].plot(x, y, fmt)
+        self.config_axes()
+        self.fig.savefig(filename, bbox_inches='tight', pad_inches=0.0)
+        
