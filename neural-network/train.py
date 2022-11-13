@@ -11,6 +11,7 @@ from pathlib import Path
 import os
 from tqdm import tqdm
 from data_util.DataLoader import DataSet, DataLoader
+from data_util.Animator import Accumulator
 from model import multiple_layer_perceptron as mlp
 import numpy as np
 from time import sleep
@@ -40,6 +41,34 @@ def parse_args():
     return parser.parse_args()
 
 
+def train_per_epoch(_net, data_iter, _loss, _learning_rate, _accuracy):
+    # 训练损失总和、训练准确度总和、样本数
+    metric = Accumulator(3)
+    for i, (features, target) in tqdm(enumerate(data_iter), delay=3, colour='blue',
+                                      total=len(data_iter), smoothing=0.9):
+        pred_target = _net(features)
+        l, delta = _loss(pred_target, target)
+        _net.backward(delta)
+        _net.update(_learning_rate)
+
+        metric.add(float(l.sum()), _accuracy(pred_target, target), target.shape[0])
+
+    return metric[0] / metric[2], metric[1] / metric[2]
+
+
+def eval_per_epoch(_net, data_iter, _loss, _accuracy):  #@save
+    """计算在指定数据集上模型的精度"""
+    metric = Accumulator(3)  # 正确预测数、预测总数
+    for i, (features, target) in tqdm(enumerate(data_iter), delay=3, colour='blue',
+                                      total=len(data_iter), smoothing=0.9):
+        pred_target = _net(features)
+        l, _ = _loss(pred_target, target)
+
+        metric.add(float(l.sum()), _accuracy(pred_target, target), target.shape[0])
+
+    return metric[0] / metric[2], metric[1] / metric[2]
+
+
 def main(args):
     
     def log_string(_str):
@@ -49,6 +78,11 @@ def main(args):
     def squared_loss(y_hat, y):  # @save
         """均方损失"""
         return (y.reshape(y_hat.shape) - y_hat) ** 2 / 2, y.reshape(y_hat.shape) - y_hat
+
+    def accuracy(y_hat, y):
+        _pred_label = np.argmax(y_hat, axis=1)
+        _label = np.argmax(y, axis=1)
+        return float(np.sum(_pred_label == _label))
 
     '''CREATE DIR'''
     time_str = str(datetime.datetime.now().strftime('%Y-%m-%d_%H-%M'))
@@ -78,7 +112,6 @@ def main(args):
 
     data_root = ROOT_DIR + '/samples.csv'
     batch_size = args.batch_size
-    learning_rate = args.learning_rate
     NUM_CLASSES = len(categories)
     INPUT_DIM = args.dim
     HIDDEN = args.hidden
@@ -98,55 +131,18 @@ def main(args):
     global_epoch = 0  # checkpoint TODO
     for epoch in range(args.epoch):
         lr = args.learning_rate
-        if epoch % 100 == 99:
-            log_string('**** Epoch %d (%d/%s) ****' % (global_epoch + 1, epoch + 1, args.epoch))
-            log_string('Learning rate:%f' % lr)
-        num_batches = len(training_data_loader)
-        total_correct = 0
-        total_seen = 0
-        loss_sum = 0
 
-        for i, (features, target) in tqdm(enumerate(training_data_loader), delay=3, colour='blue',
-                                          total=len(training_data_loader), smoothing=0.9):
-            pred_target = net(features)
-            loss, delta = squared_loss(pred_target, target)
-            net.backward(delta)
-            net.update(learning_rate)
-
-            pred_label = np.argmax(pred_target, axis=1)
-            label = np.argmax(target, axis=1)
-            correct = np.sum(pred_label == label)
-            total_correct += correct
-            total_seen += batch_size
-            loss_sum += loss.sum()
+        train_metrics = train_per_epoch(net, training_data_loader, squared_loss, lr, accuracy)
+        eval_metrics = eval_per_epoch(net, validating_data_loader, squared_loss, accuracy)
 
         if epoch % 200 == 199:
             sleep(0.3)
-            log_string('Training mean loss: %f' % (loss_sum / num_batches))
-            log_string('Training accuracy: %f' % (total_correct / float(total_seen)))
-
-        # if epoch % 5 == 0:
-        #     logger.info('Save model...')
-        #     savepath = str(checkpoints_dir) + '/model.pth'
-        #     log_string('Saving at %s' % savepath)
-        #     state = {
-        #         'epoch': epoch,
-        #         'model_state_dict': net.state_dict(),
-        #     }
-        #     log_string('Saving model....')
-        # TODO
-
-            # test
-            total_correct = 0
-            for i, (features, target) in tqdm(enumerate(validating_data_loader), delay=3, colour='red',
-                                              total=len(validating_data_loader), smoothing=0.9, leave=True):
-                pred_target = net(features)
-                pred_label = np.argmax(pred_target, axis=1)
-                label = np.argmax(target, axis=1)
-                correct = np.sum(pred_label == label)
-                total_correct += correct
-
-            log_string('Validating accuracy: %f\n' % (total_correct / float(len(validating_dataset))))
+            log_string('**** Epoch %d (%d/%s) ****' % (global_epoch + 1, epoch + 1, args.epoch))
+            log_string('Learning rate:%f' % lr)
+            log_string('Training mean loss: %f' % train_metrics[0])
+            log_string('Training accuracy: %f' % train_metrics[1])
+            log_string('Evaluating mean loss: %f' % eval_metrics[0])
+            log_string('Evaluating accuracy: %f\n' % eval_metrics[1])
 
         global_epoch += 1
 

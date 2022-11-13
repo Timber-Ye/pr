@@ -32,7 +32,7 @@ class DataSet:
 
 
 class DataLoader:
-    def __init__(self, dataset, batch_size, shuffle=True):
+    def __init__(self, dataset, batch_size=1, shuffle=True):
         self.Dataset = dataset
         self.batch_size = batch_size
         self.Indices = np.arange(len(dataset))
