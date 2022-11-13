@@ -38,7 +38,7 @@ class Accumulator:
         return self.data[idx]
 
 
-class Animator:
+class MyAnimator:
     """在动画中绘制数据"""
     def __init__(self, xlabel=None, ylabel=None, legend=None, xlim=None,
                  ylim=None, xscale='linear', yscale='linear',
@@ -78,7 +78,8 @@ class Animator:
         display.display(self.fig)
         display.clear_output(wait=True)
         
-    def save(self, filename):
+    def savefig(self, filename):
+        self.axes[0].cla()
         for x, y, fmt in zip(self.X, self.Y, self.fmts):
             self.axes[0].plot(x, y, fmt)
         self.config_axes()
