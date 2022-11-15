@@ -46,17 +46,17 @@ def train_per_epoch(_net, data_iter, _loss, _learning_rate, _accuracy):
     metric = Accumulator(3)
     for i, (features, target) in tqdm(enumerate(data_iter), delay=3, colour='blue',
                                       total=len(data_iter), smoothing=0.9):
-        pred_target = _net(features)
-        l, delta = _loss(pred_target, target)
-        _net.backward(delta)
-        _net.update(_learning_rate)
+        pred_target = _net(features)  # 前向传播
+        l, delta = _loss(pred_target, target)  # 计算误差损失
+        _net.backward(delta)  # 反向传播
+        _net.update(_learning_rate)  # 更新网络参数
 
         metric.add(float(l.sum()), _accuracy(pred_target, target), target.shape[0])
 
     return metric[0] / metric[2], metric[1] / metric[2]
 
 
-def eval_per_epoch(_net, data_iter, _loss, _accuracy):  #@save
+def eval_per_epoch(_net, data_iter, _loss, _accuracy):
     """计算在指定数据集上模型的精度"""
     metric = Accumulator(3)  # 正确预测数、预测总数
     for i, (features, target) in tqdm(enumerate(data_iter), delay=3, colour='blue',
