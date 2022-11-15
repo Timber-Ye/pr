@@ -11,13 +11,13 @@ class DataSet:
     """ 加载数据集 """
     def __init__(self, data_root='samples.csv', split='train', eval_sample_idx=None):
         data = pd.read_csv(data_root, header=None)
-        if split == 'train':
-            sample_idx = [_i for _i in range(data.shape[0]) if _i not in eval_sample_idx]
+        if eval_sample_idx is None:
+            sample_idx = list(range(data.shape[0]))
         else:
-            if eval_sample_idx is not None:
-                sample_idx = eval_sample_idx
+            if split == 'train':
+                sample_idx = [_i for _i in range(data.shape[0]) if _i not in eval_sample_idx]
             else:
-                sample_idx = list(range(data.shape[0]))
+                sample_idx = eval_sample_idx
 
         labels = data.iloc[sample_idx, -1]
         features = data.iloc[sample_idx, :-1]
