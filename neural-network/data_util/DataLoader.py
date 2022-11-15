@@ -9,7 +9,7 @@ import pandas as pd
 
 class DataSet:
     """ 加载数据集 """
-    def __init__(self, data_root='train_samples.csv', split='train', eval_sample_idx=None):
+    def __init__(self, data_root='samples.csv', split='train', eval_sample_idx=None):
         data = pd.read_csv(data_root, header=None)
         if split == 'train':
             sample_idx = [_i for _i in range(data.shape[0]) if _i not in eval_sample_idx]
