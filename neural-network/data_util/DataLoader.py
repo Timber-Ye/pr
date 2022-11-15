@@ -8,13 +8,16 @@ import pandas as pd
 
 
 class DataSet:
-    def __init__(self, data_root='samples.csv', split='train', eval_sample_idx=None):
+    """ 加载数据集 """
+    def __init__(self, data_root='train_samples.csv', split='train', eval_sample_idx=None):
         data = pd.read_csv(data_root, header=None)
         if split == 'train':
             sample_idx = [_i for _i in range(data.shape[0]) if _i not in eval_sample_idx]
         else:
-            assert eval_sample_idx is not None
-            sample_idx = eval_sample_idx
+            if eval_sample_idx is not None:
+                sample_idx = eval_sample_idx
+            else:
+                sample_idx = list(range(data.shape[0]))
 
         labels = data.iloc[sample_idx, -1]
         features = data.iloc[sample_idx, :-1]
@@ -32,6 +35,7 @@ class DataSet:
 
 
 class DataLoader:
+    """ 数据迭代器 """
     def __init__(self, dataset, batch_size=1, shuffle=True):
         self.Dataset = dataset
         self.batch_size = batch_size
