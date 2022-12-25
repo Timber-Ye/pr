@@ -11,10 +11,10 @@ import scipy
 
 class LDA:
     def __init__(self, _n_component=None):
-        self.component = _n_component
+        self.component = _n_component  # 投影后的维数
         self.Features = None
         self.Labels = None
-        self.ClassNum = None
+        self.ClassNum = None  # 类别个数
         self.gEigVec = None  # 广义特征向量
         self.eigIndices = None  # 特征向量按照对应特征值由大到小排序
 
@@ -37,6 +37,7 @@ class LDA:
             Sw += Swi
 
         Sb = St - Sw  # between scatter
+        Sw += 1e-3 * np.eye(self.Features.shape[1])  # regularization
 
         eigenVal, eigenVec = scipy.linalg.eigh(Sb, Sw)
         eigenVec = eigenVec[:, np.argsort(eigenVal)[::-1]]  # sort eigenvectors
@@ -54,8 +55,7 @@ class LDA:
         assert self.component <= min(self.ClassNum, self.Features.shape[1])
         assert self.Features is not None
 
-        return np.dot(self.Features, self.gEigVec[:, :self.component]), self.Labels
-        # return self.Features @ self.gEigVec[:, self.eigIndices[:self.component]].T, self.Labels
+        return np.dot(self.Features, self.gEigVec[:, :self.component]), self.Labels  # 投影变换
 
 
 def lda_knn_clf(_lda, _n_components=None):
@@ -106,14 +106,14 @@ if __name__ == '__main__':
     ORL_DATASET_FEATURES, ORL_DATASET_LABEL = ORL_DATASET[:, :-1]/255, ORL_DATASET[:, -1]
     ORL_DATASET_NDIM = ORL_DATASET_FEATURES.shape[1]
 
-    # my_clf = LDA(3)
-    # my_clf.fit(ORL_DATASET_FEATURES, ORL_DATASET_LABEL)
-    # my_X_new, _ = my_clf.transform()
+    my_clf = LDA(3)
+    my_clf.fit(ORL_DATASET_FEATURES, ORL_DATASET_LABEL)
+    my_X_new, _ = my_clf.transform()
 
-    clf = LinearDiscriminantAnalysis(solver='eigen', n_components=3)
-    X_new = clf.fit_transform(ORL_DATASET_FEATURES, ORL_DATASET_LABEL)
+    # clf = LinearDiscriminantAnalysis(solver='eigen', n_components=3)
+    # X_new = clf.fit_transform(ORL_DATASET_FEATURES, ORL_DATASET_LABEL)
 
-    acc = knn_clf(X_new, ORL_DATASET_LABEL)
+    acc = knn_clf(my_X_new, ORL_DATASET_LABEL)
     print(acc)
 
 

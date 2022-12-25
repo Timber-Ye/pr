@@ -9,15 +9,15 @@ from knn_clf import knn_clf
 
 class PCA:
     def __init__(self, _n_component=None):
-        self.component = _n_component
+        self.component = _n_component  # 要保留的主成分数目
         self.Features = None
-        self.Center = None
-        self.EigVec = None
+        self.Center = None  # 数据中心点（均值）
+        self.EigVec = None  # 协方差矩阵的特征向量
 
     def fit(self, _features):
         self.Features = _features
         unbiased = self.Features - np.mean(_features, axis=0)  # 零均值化
-        _, _, self.EigVec = np.linalg.svd(unbiased)
+        _, _, self.EigVec = np.linalg.svd(unbiased)  # SVD分解求取特征向量
         print("Dataset size: {:^3d}".format(self.Features.shape[0]))
         print("Dataset dim: {:^3d}".format(self.Features.shape[1]))
 

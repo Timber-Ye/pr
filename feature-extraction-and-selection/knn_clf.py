@@ -9,7 +9,8 @@ from sklearn.neighbors import KNeighborsClassifier
 
 
 def knn_clf(_data_x, _data_y, _n_neighbors=1):
-    train_x, test_x, train_y, test_y = train_test_split(_data_x, _data_y, test_size=0.2, random_state=42)
+    # 划分训练集与测试集
+    train_x, test_x, train_y, test_y = train_test_split(_data_x, _data_y, test_size=0.2, random_state=26)
 
     clf = KNeighborsClassifier(n_neighbors=_n_neighbors)
     clf.fit(train_x, train_y)
