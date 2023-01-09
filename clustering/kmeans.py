@@ -40,15 +40,6 @@ def assign_samples(samples, means):
     return assignments
 
 
-def draw(_means, _X, _assign):
-    plt.cla()
-    n_clusters = int(np.max(_assign)) + 1
-    for _i in range(n_clusters):
-        cluster_idx = np.where(_assign == _i)[0]
-        plt.plot(_X[cluster_idx, 0], _X[cluster_idx, 1], '.', label='cluster {}'.format(_i+1))
-    plt.plot(_means[:, 0], _means[:, 1], 'r^', label='cluster centers')
-
-
 def update_means(samples, assign):
     """
     Accepts a set of samples, a list of assignments, the indices
@@ -84,22 +75,27 @@ class KMeans:
         self.Means = None
         self.Verbose = verbose
 
-    def fit_predict(self, X):
+    def fit_predict(self, X, init=None):
         """
         Compute cluster centers and predict cluster index for each sample.
         :param X: sample points, each with the same number of dimensions.
         :return: A list which will mark the label of the closest mean vector for each sample.
         """
         self.Samples = X
-        initial = np.random.choice(len(self.Samples), self.N, replace=False)
-        self.Means = self.Samples[initial, :]  # pick N random points as cluster centers
+
+        if init is None:
+            # pick N random points as cluster centers
+            initial = np.random.choice(len(self.Samples), self.N, replace=False)
+            self.Means = self.Samples[initial, :]
+        else:
+            self.Means = init()
+
         for i in range(self.Iter):
             self.Assignment = assign_samples(self.Samples, self.Means)
             self.Means = update_means(self.Samples, self.Assignment)
 
             if self.Verbose and i % 1 == 0:
                 print("[Iteration {}] mean vectors:\n{}\n".format(i+1, self.Means))
-                yield self.Means, self.Assignment
 
         print("[Output] mean vectors:\n{}\n".format(self.Means))
         return self.Means, self.Assignment
@@ -113,6 +109,7 @@ class KMeans:
         :return: clustering accuracy
         """
         sorted_indices = np.argsort(self.Means[:, 0])
+        center_error = []
         dist_sum = 0
         for _i, _mean in enumerate(self.Means):
             min_dist = float('inf')
@@ -123,13 +120,11 @@ class KMeans:
                     min_dist = dist_sq
                     record_idx = _j
             sorted_indices[_i] = record_idx
+            center_error.append(_mean - Centers[record_idx])
             dist_sum += np.sqrt(min_dist)
 
         correct = np.sum(Y == sorted_indices[self.Assignment])
-        return float(correct) / self.Assignment.shape[0], dist_sum / self.N
-
-    def draw_result(self):
-        draw(self.Means, self.Samples, self.Assignment)
+        return float(correct) / self.Assignment.shape[0], dist_sum / self.N, center_error
 
 
 if __name__ == '__main__':
@@ -148,15 +143,8 @@ if __name__ == '__main__':
     Y = np.concatenate((tmp, tmp*2)) - 1
 
     kmeans = KMeans(n_clusters=2, verbose=False, max_iter=10)
-    plt.ion()
-    for means, assign in kmeans.fit_predict(X):
-        draw(means, X, assign)
-        plt.pause(0.5)
-        plt.show()
+    means, assign = kmeans.fit_predict(X)
 
     centers = np.array([mu1, mu2])
-    acc, avg_dist = kmeans.score(Y, centers)
+    acc, avg_dist, center_error = kmeans.score(Y, centers)
     print("clustering accuracy: {:.2f},\t average distance: {:.2f}".format(acc, avg_dist))
-    plt.ioff()
-    kmeans.draw_result()
-    plt.show()
