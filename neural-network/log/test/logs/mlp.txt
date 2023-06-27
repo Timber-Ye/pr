@@ -1,0 +1,2734 @@
+2022-11-10 10:43:15,331 - Training - INFO - PARAMETER ...
+2022-11-10 10:43:15,331 - Training - INFO - Namespace(model='mlp', dim=3, hidden=64, epoch=1, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[8, 9, 18, 19, 28, 29])
+2022-11-10 10:43:15,334 - Training - INFO - The number of training data is: 24.
+2022-11-10 10:43:15,335 - Training - INFO - The number of validating data is: 6.
+2022-11-10 10:49:25,622 - Training - INFO - PARAMETER ...
+2022-11-10 10:49:25,622 - Training - INFO - Namespace(model='mlp', dim=3, hidden=64, epoch=1000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[8, 9, 18, 19, 28, 29])
+2022-11-10 10:49:25,624 - Training - INFO - The number of training data is: 24.
+2022-11-10 10:49:25,625 - Training - INFO - The number of validating data is: 6.
+2022-11-10 10:49:25,632 - Training - INFO - Validating accuracy: 0.333333
+2022-11-10 10:49:25,633 - Training - INFO - Validating accuracy: 0.333333
+2022-11-10 10:49:25,634 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:25,634 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:25,635 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,635 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,636 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,637 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,637 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,638 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,638 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,639 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,639 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,640 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,641 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,641 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,642 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,642 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,643 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,644 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,644 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,645 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,645 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,646 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,647 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,647 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,648 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,648 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,649 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,649 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,650 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,651 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,651 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,652 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,652 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,653 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,654 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,654 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,655 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,656 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,657 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,657 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,658 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,659 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,659 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,660 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,661 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,661 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,662 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,663 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,663 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,664 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,664 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,665 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,665 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,666 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,667 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,667 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,668 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,668 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,669 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,669 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,670 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,671 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,671 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,672 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,672 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,673 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,673 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,674 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,675 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,675 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,676 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,676 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,677 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,677 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,678 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,678 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,679 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,680 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,680 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,681 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,681 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,682 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,682 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,683 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,683 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,684 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,685 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,685 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,686 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,686 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,687 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,687 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,688 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,689 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,689 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,690 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,690 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,690 - Training - INFO - **** Epoch 100 (100/1000) ****
+2022-11-10 10:49:25,690 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:49:25,691 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,691 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,692 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,693 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,693 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,694 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,694 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,695 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,695 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,696 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,696 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,697 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,698 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,698 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,699 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,699 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,700 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,700 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,701 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,701 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,702 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,702 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,703 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,704 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,704 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,705 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,705 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,706 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,706 - Training - INFO - Validating accuracy: 0.333333
+2022-11-10 10:49:25,707 - Training - INFO - Validating accuracy: 0.333333
+2022-11-10 10:49:25,707 - Training - INFO - Validating accuracy: 0.333333
+2022-11-10 10:49:25,708 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,708 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,709 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,710 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,710 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,711 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,711 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,712 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,712 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,713 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,713 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,714 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,714 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,715 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,716 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,716 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,717 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,718 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,718 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,719 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,719 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,720 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,720 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,721 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,721 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,722 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,723 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,723 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,724 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,724 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,725 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,725 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,726 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,726 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,727 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,728 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,728 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,729 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,729 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,730 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,730 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,731 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,731 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,732 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,733 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,733 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,734 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,734 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,735 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,735 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,736 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,736 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,737 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,737 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,738 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,739 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,739 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,740 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,740 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,741 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,741 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,742 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,742 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,743 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,744 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,744 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,745 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,745 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,746 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:25,746 - Training - INFO - **** Epoch 200 (200/1000) ****
+2022-11-10 10:49:25,746 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:49:26,051 - Training - INFO - Training mean loss: 0.502920
+2022-11-10 10:49:26,052 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:49:26,052 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,054 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,055 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,056 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,057 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,058 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,059 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,060 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,061 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,062 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,063 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,064 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,065 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,066 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,066 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,067 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,068 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,069 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,070 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,071 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,072 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,073 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,074 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,075 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,076 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,076 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,077 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,078 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,079 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,080 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,080 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,081 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,082 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,083 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,083 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,084 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,085 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,086 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,086 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,087 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,088 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,089 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,089 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,090 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,091 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,091 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,092 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,093 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,093 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,094 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,095 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,095 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,096 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,097 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,097 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,098 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,099 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,099 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,100 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,101 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,101 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,102 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,102 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,103 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,104 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,104 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,105 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,106 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,106 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,107 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,107 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,108 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,109 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,109 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,110 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,110 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,111 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,111 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,112 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,113 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,113 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,114 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,114 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,115 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,116 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,116 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,117 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,117 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,118 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,118 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,119 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,120 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,120 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,121 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,121 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,122 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,122 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,123 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,124 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:49:26,124 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,124 - Training - INFO - **** Epoch 300 (300/1000) ****
+2022-11-10 10:49:26,124 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:49:26,125 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,125 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,126 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,126 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,127 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,127 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,128 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,129 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,129 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,130 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,130 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,131 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,131 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,132 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,132 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,133 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,134 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,134 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,135 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,136 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,136 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,137 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,137 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,138 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,138 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,139 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,139 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,140 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,140 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,141 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,141 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,142 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,143 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,143 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,144 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,144 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,145 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,146 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,146 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,147 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,147 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,148 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,148 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,149 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,149 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,150 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,151 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,151 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,152 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,152 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,153 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,153 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,154 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,155 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,155 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,156 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,156 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,157 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,158 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,158 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,159 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,159 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,160 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,161 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,161 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,162 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,162 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,163 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,163 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,164 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,164 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,165 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,166 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,166 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,167 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,167 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,168 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,168 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,169 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,169 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,170 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,171 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,171 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,172 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,172 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,173 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,173 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,174 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,175 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,175 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,176 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,176 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,177 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,177 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,178 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,178 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,179 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,180 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,180 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,181 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,181 - Training - INFO - **** Epoch 400 (400/1000) ****
+2022-11-10 10:49:26,181 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:49:26,486 - Training - INFO - Training mean loss: 0.388312
+2022-11-10 10:49:26,486 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:49:26,487 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,489 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,491 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,492 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,494 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,496 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,497 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,499 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,500 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,501 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,503 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,504 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,505 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,507 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,508 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,509 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,511 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,512 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,513 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,514 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,515 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,517 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,518 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,519 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,520 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,521 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,522 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,523 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,524 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,525 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,526 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,527 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,528 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,529 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,530 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,531 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,532 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,533 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,533 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,534 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,535 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,536 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,537 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,538 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,539 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,540 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,540 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,541 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,542 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,543 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,543 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,544 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,545 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,546 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,547 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,547 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,548 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,549 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,550 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,550 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,551 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,552 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,552 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,553 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,554 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,555 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,555 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,556 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,557 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,557 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,558 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,559 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,559 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,560 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,561 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,561 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,562 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,563 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,563 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,564 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,564 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,565 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,566 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,566 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,567 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,568 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,568 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,569 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,569 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,570 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,571 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,571 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,572 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,572 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,573 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,574 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,574 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,575 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,575 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,576 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,576 - Training - INFO - **** Epoch 500 (500/1000) ****
+2022-11-10 10:49:26,576 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:49:26,577 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,577 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,578 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,578 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,579 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,580 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,580 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,581 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,581 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,582 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,582 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,583 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,584 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,584 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,585 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,585 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,586 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,586 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,587 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,588 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,588 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,589 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,589 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,590 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,590 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,591 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,592 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,592 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,593 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,593 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,594 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,594 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,595 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,595 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,596 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,597 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,597 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,598 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,598 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,599 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,599 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,600 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,600 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,601 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,601 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,602 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,603 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,603 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,604 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,604 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,605 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,605 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,606 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,606 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,607 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,607 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,608 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,609 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,609 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,610 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,610 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,611 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,611 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,612 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,612 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,613 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,614 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,614 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,615 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,615 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,616 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,616 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,617 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,617 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,618 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,618 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,619 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,619 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,620 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,621 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,621 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,622 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,622 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,623 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,623 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,624 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,624 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,625 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,625 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,626 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,627 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,627 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,628 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,628 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,629 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,629 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,630 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,630 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,631 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,632 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,632 - Training - INFO - **** Epoch 600 (600/1000) ****
+2022-11-10 10:49:26,632 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:49:26,937 - Training - INFO - Training mean loss: 0.307001
+2022-11-10 10:49:26,937 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:49:26,938 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,940 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,942 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,943 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,945 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,946 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,947 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,949 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,950 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,952 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,953 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,954 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,955 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,956 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,958 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,959 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,960 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,961 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,962 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,963 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,964 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,965 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,966 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,967 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,968 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,969 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,970 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,971 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,972 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,973 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,974 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,975 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,976 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,977 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,978 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,979 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,979 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,980 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,981 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,982 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,983 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,984 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,984 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,985 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,986 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,987 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,988 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,988 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,989 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,990 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,991 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,991 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,992 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,993 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,994 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,994 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,995 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,996 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,997 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,997 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,998 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,999 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:26,999 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,000 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,001 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,001 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,002 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,003 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,003 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,004 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,005 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,005 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,006 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,007 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,007 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,008 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,008 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,009 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,010 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,010 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,011 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,012 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,012 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,013 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,013 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,014 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,015 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,015 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,016 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,016 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,017 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,018 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,018 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,019 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,019 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,020 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,021 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,021 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,022 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,022 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,022 - Training - INFO - **** Epoch 700 (700/1000) ****
+2022-11-10 10:49:27,022 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:49:27,023 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,024 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,024 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,025 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,025 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,026 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,026 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,027 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,028 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,028 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,029 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,029 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,030 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,030 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,031 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,032 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,032 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,033 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,033 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,034 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,034 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,035 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,036 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,036 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,037 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,037 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,038 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,038 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,039 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,039 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,040 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,041 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,041 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,042 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,042 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,043 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,043 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,044 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,044 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,045 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,045 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,046 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,047 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,047 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,048 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,048 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,049 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,049 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,050 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,050 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,051 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,052 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,052 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,053 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,053 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,054 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,054 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,055 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,055 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,056 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,056 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,057 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,058 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,058 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,059 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,059 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,060 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,060 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,061 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,061 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,062 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,063 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,063 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,064 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,064 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,065 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,065 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,066 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,067 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,067 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,068 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,068 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,069 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,069 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,070 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,070 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,071 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,072 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,072 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,073 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,073 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,074 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,074 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,075 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,075 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,076 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,077 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,077 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,078 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,078 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,078 - Training - INFO - **** Epoch 800 (800/1000) ****
+2022-11-10 10:49:27,078 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:49:27,384 - Training - INFO - Training mean loss: 0.235748
+2022-11-10 10:49:27,385 - Training - INFO - Training accuracy: 0.958333
+2022-11-10 10:49:27,387 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,390 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,393 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,394 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,396 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,398 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,399 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,401 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,403 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,404 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,405 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,407 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,408 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,409 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,411 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,412 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,414 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,415 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,416 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,417 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,418 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,419 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,421 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,422 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,423 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,424 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,425 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,426 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,427 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,428 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,429 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,430 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,431 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,432 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,433 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,434 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,435 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,436 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,437 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,437 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,438 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,439 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,440 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,441 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,442 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,443 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,444 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,444 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,445 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,446 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,447 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,448 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,448 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,449 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,450 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,451 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,451 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,452 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,453 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,454 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,454 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,455 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,456 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,457 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,457 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,458 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,459 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,459 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,460 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,461 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,461 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,462 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,463 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,463 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,464 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,465 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,465 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,466 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,467 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,467 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,468 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,469 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,469 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,470 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,470 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,471 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,472 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,472 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,473 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,474 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,474 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,475 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,475 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,476 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,477 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,477 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,478 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,478 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,479 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,480 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,480 - Training - INFO - **** Epoch 900 (900/1000) ****
+2022-11-10 10:49:27,480 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:49:27,480 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,481 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,481 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,482 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,483 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,483 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,484 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,484 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,485 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,485 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,486 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,487 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,487 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,488 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,488 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,489 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,489 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,490 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,491 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,491 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,492 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,492 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,493 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,493 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,494 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,494 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,495 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,496 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,496 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,497 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,497 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,498 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,498 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,499 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,499 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,500 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,501 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,501 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,502 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,502 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,503 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,503 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,504 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,504 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,505 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,506 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,506 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,507 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,507 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,508 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,508 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,509 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,509 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,510 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,510 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,511 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,511 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,512 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,513 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,513 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,514 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,514 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,515 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,515 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,516 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,516 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,517 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,518 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,518 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,519 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,519 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,520 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,520 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,521 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,521 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,522 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,523 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,523 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,524 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,524 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,525 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,525 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,526 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,526 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,527 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,527 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,528 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,529 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,529 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,530 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,530 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,531 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,531 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,532 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,532 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,533 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,534 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,534 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,535 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,535 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:49:27,535 - Training - INFO - **** Epoch 1000 (1000/1000) ****
+2022-11-10 10:49:27,535 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:49:27,841 - Training - INFO - Training mean loss: 0.196350
+2022-11-10 10:49:27,841 - Training - INFO - Training accuracy: 0.958333
+2022-11-10 10:49:27,843 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:50:23,626 - Training - INFO - PARAMETER ...
+2022-11-10 10:50:23,627 - Training - INFO - Namespace(model='mlp', dim=3, hidden=64, epoch=1000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[8, 9, 18, 19, 28, 29])
+2022-11-10 10:50:23,628 - Training - INFO - The number of training data is: 24.
+2022-11-10 10:50:23,629 - Training - INFO - The number of validating data is: 6.
+2022-11-10 10:50:23,675 - Training - INFO - **** Epoch 100 (100/1000) ****
+2022-11-10 10:50:23,675 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:50:23,712 - Training - INFO - **** Epoch 200 (200/1000) ****
+2022-11-10 10:50:23,712 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:50:24,016 - Training - INFO - Training mean loss: 0.493955
+2022-11-10 10:50:24,016 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:50:24,016 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:50:24,053 - Training - INFO - **** Epoch 300 (300/1000) ****
+2022-11-10 10:50:24,053 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:50:24,090 - Training - INFO - **** Epoch 400 (400/1000) ****
+2022-11-10 10:50:24,090 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:50:24,391 - Training - INFO - Training mean loss: 0.377321
+2022-11-10 10:50:24,391 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:50:24,391 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:50:24,437 - Training - INFO - **** Epoch 500 (500/1000) ****
+2022-11-10 10:50:24,437 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:50:24,474 - Training - INFO - **** Epoch 600 (600/1000) ****
+2022-11-10 10:50:24,474 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:50:24,780 - Training - INFO - Training mean loss: 0.295638
+2022-11-10 10:50:24,781 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:50:24,783 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:50:24,856 - Training - INFO - **** Epoch 700 (700/1000) ****
+2022-11-10 10:50:24,856 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:50:24,896 - Training - INFO - **** Epoch 800 (800/1000) ****
+2022-11-10 10:50:24,896 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:50:25,202 - Training - INFO - Training mean loss: 0.224333
+2022-11-10 10:50:25,203 - Training - INFO - Training accuracy: 0.958333
+2022-11-10 10:50:25,205 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:50:25,278 - Training - INFO - **** Epoch 900 (900/1000) ****
+2022-11-10 10:50:25,278 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:50:25,318 - Training - INFO - **** Epoch 1000 (1000/1000) ****
+2022-11-10 10:50:25,318 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:50:25,623 - Training - INFO - Training mean loss: 0.189699
+2022-11-10 10:50:25,623 - Training - INFO - Training accuracy: 0.958333
+2022-11-10 10:50:25,626 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:52:11,932 - Training - INFO - PARAMETER ...
+2022-11-10 10:52:11,932 - Training - INFO - Namespace(model='mlp', dim=3, hidden=64, epoch=1000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[8, 9, 18, 19, 28, 29])
+2022-11-10 10:52:11,934 - Training - INFO - The number of training data is: 24.
+2022-11-10 10:52:11,935 - Training - INFO - The number of validating data is: 6.
+2022-11-10 10:52:11,981 - Training - INFO - **** Epoch 100 (100/1000) ****
+2022-11-10 10:52:11,981 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:52:12,018 - Training - INFO - **** Epoch 200 (200/1000) ****
+2022-11-10 10:52:12,018 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:52:12,323 - Training - INFO - Training mean loss: 0.518123
+2022-11-10 10:52:12,323 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:52:12,324 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:52:12,376 - Training - INFO - **** Epoch 300 (300/1000) ****
+2022-11-10 10:52:12,376 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:52:12,414 - Training - INFO - **** Epoch 400 (400/1000) ****
+2022-11-10 10:52:12,414 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:52:12,720 - Training - INFO - Training mean loss: 0.410495
+2022-11-10 10:52:12,721 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:52:12,723 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:52:12,797 - Training - INFO - **** Epoch 500 (500/1000) ****
+2022-11-10 10:52:12,797 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:52:12,838 - Training - INFO - **** Epoch 600 (600/1000) ****
+2022-11-10 10:52:12,838 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:52:13,143 - Training - INFO - Training mean loss: 0.322509
+2022-11-10 10:52:13,144 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:52:13,146 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:52:13,218 - Training - INFO - **** Epoch 700 (700/1000) ****
+2022-11-10 10:52:13,218 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:52:13,259 - Training - INFO - **** Epoch 800 (800/1000) ****
+2022-11-10 10:52:13,259 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:52:13,564 - Training - INFO - Training mean loss: 0.272943
+2022-11-10 10:52:13,565 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:52:13,568 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:52:13,642 - Training - INFO - **** Epoch 900 (900/1000) ****
+2022-11-10 10:52:13,642 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:52:13,682 - Training - INFO - **** Epoch 1000 (1000/1000) ****
+2022-11-10 10:52:13,682 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:52:13,988 - Training - INFO - Training mean loss: 0.246292
+2022-11-10 10:52:13,989 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:52:13,991 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:55:16,302 - Training - INFO - PARAMETER ...
+2022-11-10 10:55:16,302 - Training - INFO - Namespace(model='mlp', dim=3, hidden=64, epoch=1000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[8, 9, 18, 19, 28, 29])
+2022-11-10 10:55:16,303 - Training - INFO - The number of training data is: 24.
+2022-11-10 10:55:16,304 - Training - INFO - The number of validating data is: 6.
+2022-11-10 10:55:16,356 - Training - INFO - **** Epoch 100 (100/1000) ****
+2022-11-10 10:55:16,356 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:16,397 - Training - INFO - **** Epoch 200 (200/1000) ****
+2022-11-10 10:55:16,397 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:16,702 - Training - INFO - Training mean loss: 0.506215
+2022-11-10 10:55:16,703 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:55:16,705 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:55:16,782 - Training - INFO - **** Epoch 300 (300/1000) ****
+2022-11-10 10:55:16,782 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:16,825 - Training - INFO - **** Epoch 400 (400/1000) ****
+2022-11-10 10:55:16,825 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:17,131 - Training - INFO - Training mean loss: 0.408800
+2022-11-10 10:55:17,131 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:55:17,134 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:55:17,212 - Training - INFO - **** Epoch 500 (500/1000) ****
+2022-11-10 10:55:17,212 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:17,255 - Training - INFO - **** Epoch 600 (600/1000) ****
+2022-11-10 10:55:17,255 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:17,561 - Training - INFO - Training mean loss: 0.330029
+2022-11-10 10:55:17,561 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:55:17,563 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:55:17,641 - Training - INFO - **** Epoch 700 (700/1000) ****
+2022-11-10 10:55:17,641 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:17,684 - Training - INFO - **** Epoch 800 (800/1000) ****
+2022-11-10 10:55:17,684 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:17,990 - Training - INFO - Training mean loss: 0.250116
+2022-11-10 10:55:17,990 - Training - INFO - Training accuracy: 0.958333
+2022-11-10 10:55:17,992 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:55:18,070 - Training - INFO - **** Epoch 900 (900/1000) ****
+2022-11-10 10:55:18,070 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:18,113 - Training - INFO - **** Epoch 1000 (1000/1000) ****
+2022-11-10 10:55:18,113 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:18,418 - Training - INFO - Training mean loss: 0.205891
+2022-11-10 10:55:18,419 - Training - INFO - Training accuracy: 0.958333
+2022-11-10 10:55:18,421 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:55:40,408 - Training - INFO - PARAMETER ...
+2022-11-10 10:55:40,408 - Training - INFO - Namespace(model='mlp', dim=3, hidden=64, epoch=1000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[8, 9, 18, 19, 28, 29])
+2022-11-10 10:55:40,410 - Training - INFO - The number of training data is: 24.
+2022-11-10 10:55:40,411 - Training - INFO - The number of validating data is: 6.
+2022-11-10 10:55:40,464 - Training - INFO - **** Epoch 100 (100/1000) ****
+2022-11-10 10:55:40,464 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:40,504 - Training - INFO - **** Epoch 200 (200/1000) ****
+2022-11-10 10:55:40,504 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:40,810 - Training - INFO - Training mean loss: 0.483013
+2022-11-10 10:55:40,811 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:55:40,813 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 10:55:40,890 - Training - INFO - **** Epoch 300 (300/1000) ****
+2022-11-10 10:55:40,890 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:40,933 - Training - INFO - **** Epoch 400 (400/1000) ****
+2022-11-10 10:55:40,933 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:41,238 - Training - INFO - Training mean loss: 0.371414
+2022-11-10 10:55:41,239 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:55:41,242 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:55:41,320 - Training - INFO - **** Epoch 500 (500/1000) ****
+2022-11-10 10:55:41,320 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:41,363 - Training - INFO - **** Epoch 600 (600/1000) ****
+2022-11-10 10:55:41,363 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:41,669 - Training - INFO - Training mean loss: 0.302518
+2022-11-10 10:55:41,669 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:55:41,671 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:55:41,747 - Training - INFO - **** Epoch 700 (700/1000) ****
+2022-11-10 10:55:41,747 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:41,790 - Training - INFO - **** Epoch 800 (800/1000) ****
+2022-11-10 10:55:41,790 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:42,096 - Training - INFO - Training mean loss: 0.259967
+2022-11-10 10:55:42,096 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 10:55:42,098 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:55:42,176 - Training - INFO - **** Epoch 900 (900/1000) ****
+2022-11-10 10:55:42,176 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:42,219 - Training - INFO - **** Epoch 1000 (1000/1000) ****
+2022-11-10 10:55:42,219 - Training - INFO - Learning rate:0.010000
+2022-11-10 10:55:42,524 - Training - INFO - Training mean loss: 0.212756
+2022-11-10 10:55:42,525 - Training - INFO - Training accuracy: 0.958333
+2022-11-10 10:55:42,527 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 10:58:20,572 - Training - INFO - PARAMETER ...
+2022-11-10 10:58:20,572 - Training - INFO - Namespace(model='mlp', dim=3, hidden=64, epoch=1000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[8, 9, 18, 19, 28, 29])
+2022-11-10 10:58:20,574 - Training - INFO - The number of training data is: 24.
+2022-11-10 10:58:20,575 - Training - INFO - The number of validating data is: 6.
+2022-11-10 11:01:12,056 - Training - INFO - PARAMETER ...
+2022-11-10 11:01:12,056 - Training - INFO - Namespace(model='mlp', dim=3, hidden=64, epoch=1000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[8, 9, 18, 19, 28, 29])
+2022-11-10 11:01:12,058 - Training - INFO - The number of training data is: 24.
+2022-11-10 11:01:12,058 - Training - INFO - The number of validating data is: 6.
+2022-11-10 11:01:12,101 - Training - INFO - **** Epoch 100 (100/1000) ****
+2022-11-10 11:01:12,101 - Training - INFO - Learning rate:0.010000
+2022-11-10 11:01:12,133 - Training - INFO - **** Epoch 200 (200/1000) ****
+2022-11-10 11:01:12,133 - Training - INFO - Learning rate:0.010000
+2022-11-10 11:01:12,438 - Training - INFO - Training mean loss: 0.517544
+2022-11-10 11:01:12,439 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 11:01:12,440 - Training - INFO - Validating accuracy: 0.500000
+2022-11-10 11:01:12,508 - Training - INFO - **** Epoch 300 (300/1000) ****
+2022-11-10 11:01:12,508 - Training - INFO - Learning rate:0.010000
+2022-11-10 11:01:12,544 - Training - INFO - **** Epoch 400 (400/1000) ****
+2022-11-10 11:01:12,545 - Training - INFO - Learning rate:0.010000
+2022-11-10 11:01:12,850 - Training - INFO - Training mean loss: 0.407387
+2022-11-10 11:01:12,851 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 11:01:12,853 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 11:01:12,920 - Training - INFO - **** Epoch 500 (500/1000) ****
+2022-11-10 11:01:12,920 - Training - INFO - Learning rate:0.010000
+2022-11-10 11:01:12,957 - Training - INFO - **** Epoch 600 (600/1000) ****
+2022-11-10 11:01:12,957 - Training - INFO - Learning rate:0.010000
+2022-11-10 11:01:13,262 - Training - INFO - Training mean loss: 0.321993
+2022-11-10 11:01:13,263 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 11:01:13,264 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 11:01:13,331 - Training - INFO - **** Epoch 700 (700/1000) ****
+2022-11-10 11:01:13,331 - Training - INFO - Learning rate:0.010000
+2022-11-10 11:01:13,367 - Training - INFO - **** Epoch 800 (800/1000) ****
+2022-11-10 11:01:13,367 - Training - INFO - Learning rate:0.010000
+2022-11-10 11:01:13,673 - Training - INFO - Training mean loss: 0.266477
+2022-11-10 11:01:13,673 - Training - INFO - Training accuracy: 0.916667
+2022-11-10 11:01:13,675 - Training - INFO - Validating accuracy: 0.666667
+2022-11-10 11:01:13,740 - Training - INFO - **** Epoch 900 (900/1000) ****
+2022-11-10 11:01:13,740 - Training - INFO - Learning rate:0.010000
+2022-11-10 11:01:13,777 - Training - INFO - **** Epoch 1000 (1000/1000) ****
+2022-11-10 11:01:13,777 - Training - INFO - Learning rate:0.010000
+2022-11-10 11:01:14,082 - Training - INFO - Training mean loss: 0.216592
+2022-11-10 11:01:14,083 - Training - INFO - Training accuracy: 0.958333
+2022-11-10 11:01:14,085 - Training - INFO - Validating accuracy: 0.666667
+2022-11-13 00:39:55,668 - Training - INFO - PARAMETER ...
+2022-11-13 00:39:55,668 - Training - INFO - Namespace(model='mlp', dim=3, hidden=5, epoch=1000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[7, 8, 9, 17, 18, 19, 27, 28, 29])
+2022-11-13 00:39:55,670 - Training - INFO - The number of training data is: 21.
+2022-11-13 00:39:55,671 - Training - INFO - The number of validating data is: 9.
+2022-11-13 00:39:55,730 - Training - INFO - **** Epoch 100 (100/1000) ****
+2022-11-13 00:39:55,730 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:39:55,757 - Training - INFO - **** Epoch 200 (200/1000) ****
+2022-11-13 00:39:55,757 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:39:56,063 - Training - INFO - Training mean loss: 0.638086
+2022-11-13 00:39:56,063 - Training - INFO - Training accuracy: 0.714286
+2022-11-13 00:39:56,065 - Training - INFO - Validating accuracy: 0.555556
+
+2022-11-13 00:39:56,125 - Training - INFO - **** Epoch 300 (300/1000) ****
+2022-11-13 00:39:56,125 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:39:56,158 - Training - INFO - **** Epoch 400 (400/1000) ****
+2022-11-13 00:39:56,158 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:39:56,463 - Training - INFO - Training mean loss: 0.471761
+2022-11-13 00:39:56,464 - Training - INFO - Training accuracy: 0.857143
+2022-11-13 00:39:56,466 - Training - INFO - Validating accuracy: 0.555556
+
+2022-11-13 00:39:56,523 - Training - INFO - **** Epoch 500 (500/1000) ****
+2022-11-13 00:39:56,523 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:39:56,556 - Training - INFO - **** Epoch 600 (600/1000) ****
+2022-11-13 00:39:56,556 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:39:56,861 - Training - INFO - Training mean loss: 0.387168
+2022-11-13 00:39:56,862 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:39:56,862 - Training - INFO - Validating accuracy: 0.555556
+
+2022-11-13 00:39:56,906 - Training - INFO - **** Epoch 700 (700/1000) ****
+2022-11-13 00:39:56,906 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:39:56,936 - Training - INFO - **** Epoch 800 (800/1000) ****
+2022-11-13 00:39:56,936 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:39:57,240 - Training - INFO - Training mean loss: 0.324911
+2022-11-13 00:39:57,241 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:39:57,241 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:39:57,281 - Training - INFO - **** Epoch 900 (900/1000) ****
+2022-11-13 00:39:57,281 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:39:57,310 - Training - INFO - **** Epoch 1000 (1000/1000) ****
+2022-11-13 00:39:57,310 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:39:57,615 - Training - INFO - Training mean loss: 0.273395
+2022-11-13 00:39:57,615 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:39:57,616 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:40:45,167 - Training - INFO - PARAMETER ...
+2022-11-13 00:40:45,174 - Training - INFO - Namespace(model='mlp', dim=3, hidden=16, epoch=1000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[7, 8, 9, 17, 18, 19, 27, 28, 29])
+2022-11-13 00:40:45,176 - Training - INFO - The number of training data is: 21.
+2022-11-13 00:40:45,177 - Training - INFO - The number of validating data is: 9.
+2022-11-13 00:40:45,210 - Training - INFO - **** Epoch 100 (100/1000) ****
+2022-11-13 00:40:45,210 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:40:45,237 - Training - INFO - **** Epoch 200 (200/1000) ****
+2022-11-13 00:40:45,238 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:40:45,543 - Training - INFO - Training mean loss: 0.587710
+2022-11-13 00:40:45,543 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:40:45,544 - Training - INFO - Validating accuracy: 0.555556
+
+2022-11-13 00:40:45,600 - Training - INFO - **** Epoch 300 (300/1000) ****
+2022-11-13 00:40:45,600 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:40:45,632 - Training - INFO - **** Epoch 400 (400/1000) ****
+2022-11-13 00:40:45,632 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:40:45,938 - Training - INFO - Training mean loss: 0.445484
+2022-11-13 00:40:45,939 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:40:45,940 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:40:45,999 - Training - INFO - **** Epoch 500 (500/1000) ****
+2022-11-13 00:40:45,999 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:40:46,032 - Training - INFO - **** Epoch 600 (600/1000) ****
+2022-11-13 00:40:46,032 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:40:46,338 - Training - INFO - Training mean loss: 0.354209
+2022-11-13 00:40:46,338 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:40:46,339 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:40:46,386 - Training - INFO - **** Epoch 700 (700/1000) ****
+2022-11-13 00:40:46,386 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:40:46,416 - Training - INFO - **** Epoch 800 (800/1000) ****
+2022-11-13 00:40:46,417 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:40:46,720 - Training - INFO - Training mean loss: 0.286593
+2022-11-13 00:40:46,720 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:40:46,720 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:40:46,756 - Training - INFO - **** Epoch 900 (900/1000) ****
+2022-11-13 00:40:46,756 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:40:46,784 - Training - INFO - **** Epoch 1000 (1000/1000) ****
+2022-11-13 00:40:46,784 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:40:47,090 - Training - INFO - Training mean loss: 0.233029
+2022-11-13 00:40:47,090 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:40:47,090 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:41:16,514 - Training - INFO - PARAMETER ...
+2022-11-13 00:41:16,514 - Training - INFO - Namespace(model='mlp', dim=3, hidden=16, epoch=2000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[7, 8, 9, 17, 18, 19, 27, 28, 29])
+2022-11-13 00:41:16,518 - Training - INFO - The number of training data is: 21.
+2022-11-13 00:41:16,523 - Training - INFO - The number of validating data is: 9.
+2022-11-13 00:41:16,559 - Training - INFO - **** Epoch 100 (100/2000) ****
+2022-11-13 00:41:16,559 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:16,586 - Training - INFO - **** Epoch 200 (200/2000) ****
+2022-11-13 00:41:16,586 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:16,891 - Training - INFO - Training mean loss: 0.566796
+2022-11-13 00:41:16,892 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:41:16,894 - Training - INFO - Validating accuracy: 0.555556
+
+2022-11-13 00:41:16,953 - Training - INFO - **** Epoch 300 (300/2000) ****
+2022-11-13 00:41:16,953 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:16,986 - Training - INFO - **** Epoch 400 (400/2000) ****
+2022-11-13 00:41:16,986 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:17,291 - Training - INFO - Training mean loss: 0.431541
+2022-11-13 00:41:17,292 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:41:17,294 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:41:17,352 - Training - INFO - **** Epoch 500 (500/2000) ****
+2022-11-13 00:41:17,352 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:17,385 - Training - INFO - **** Epoch 600 (600/2000) ****
+2022-11-13 00:41:17,385 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:17,691 - Training - INFO - Training mean loss: 0.356202
+2022-11-13 00:41:17,691 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:41:17,692 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:41:17,752 - Training - INFO - **** Epoch 700 (700/2000) ****
+2022-11-13 00:41:17,752 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:17,785 - Training - INFO - **** Epoch 800 (800/2000) ****
+2022-11-13 00:41:17,786 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:18,091 - Training - INFO - Training mean loss: 0.306993
+2022-11-13 00:41:18,092 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:41:18,094 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:41:18,153 - Training - INFO - **** Epoch 900 (900/2000) ****
+2022-11-13 00:41:18,154 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:18,186 - Training - INFO - **** Epoch 1000 (1000/2000) ****
+2022-11-13 00:41:18,186 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:18,492 - Training - INFO - Training mean loss: 0.259771
+2022-11-13 00:41:18,493 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:41:18,494 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:41:18,552 - Training - INFO - **** Epoch 1100 (1100/2000) ****
+2022-11-13 00:41:18,552 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:18,585 - Training - INFO - **** Epoch 1200 (1200/2000) ****
+2022-11-13 00:41:18,585 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:18,887 - Training - INFO - Training mean loss: 0.207533
+2022-11-13 00:41:18,887 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:41:18,888 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:41:18,930 - Training - INFO - **** Epoch 1300 (1300/2000) ****
+2022-11-13 00:41:18,930 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:18,959 - Training - INFO - **** Epoch 1400 (1400/2000) ****
+2022-11-13 00:41:18,960 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:19,265 - Training - INFO - Training mean loss: 0.173470
+2022-11-13 00:41:19,266 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:41:19,268 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:41:19,325 - Training - INFO - **** Epoch 1500 (1500/2000) ****
+2022-11-13 00:41:19,325 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:19,358 - Training - INFO - **** Epoch 1600 (1600/2000) ****
+2022-11-13 00:41:19,358 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:19,664 - Training - INFO - Training mean loss: 0.148843
+2022-11-13 00:41:19,664 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:41:19,667 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:41:19,724 - Training - INFO - **** Epoch 1700 (1700/2000) ****
+2022-11-13 00:41:19,724 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:19,756 - Training - INFO - **** Epoch 1800 (1800/2000) ****
+2022-11-13 00:41:19,756 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:20,062 - Training - INFO - Training mean loss: 0.130227
+2022-11-13 00:41:20,063 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:41:20,065 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:41:20,123 - Training - INFO - **** Epoch 1900 (1900/2000) ****
+2022-11-13 00:41:20,123 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:20,156 - Training - INFO - **** Epoch 2000 (2000/2000) ****
+2022-11-13 00:41:20,156 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:41:20,461 - Training - INFO - Training mean loss: 0.117109
+2022-11-13 00:41:20,462 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:41:20,465 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:42:08,470 - Training - INFO - PARAMETER ...
+2022-11-13 00:42:08,470 - Training - INFO - Namespace(model='mlp', dim=3, hidden=16, epoch=2000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[3, 8, 9, 13, 18, 19, 21, 28, 29])
+2022-11-13 00:42:08,471 - Training - INFO - The number of training data is: 21.
+2022-11-13 00:42:08,472 - Training - INFO - The number of validating data is: 9.
+2022-11-13 00:42:08,505 - Training - INFO - **** Epoch 100 (100/2000) ****
+2022-11-13 00:42:08,505 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:08,531 - Training - INFO - **** Epoch 200 (200/2000) ****
+2022-11-13 00:42:08,532 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:08,837 - Training - INFO - Training mean loss: 0.605043
+2022-11-13 00:42:08,838 - Training - INFO - Training accuracy: 0.809524
+2022-11-13 00:42:08,840 - Training - INFO - Validating accuracy: 0.555556
+
+2022-11-13 00:42:08,898 - Training - INFO - **** Epoch 300 (300/2000) ****
+2022-11-13 00:42:08,898 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:08,931 - Training - INFO - **** Epoch 400 (400/2000) ****
+2022-11-13 00:42:08,931 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:09,236 - Training - INFO - Training mean loss: 0.487830
+2022-11-13 00:42:09,237 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:42:09,239 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:42:09,297 - Training - INFO - **** Epoch 500 (500/2000) ****
+2022-11-13 00:42:09,297 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:09,330 - Training - INFO - **** Epoch 600 (600/2000) ****
+2022-11-13 00:42:09,330 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:09,635 - Training - INFO - Training mean loss: 0.402091
+2022-11-13 00:42:09,636 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:42:09,638 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:42:09,697 - Training - INFO - **** Epoch 700 (700/2000) ****
+2022-11-13 00:42:09,697 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:09,730 - Training - INFO - **** Epoch 800 (800/2000) ****
+2022-11-13 00:42:09,730 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:10,032 - Training - INFO - Training mean loss: 0.339709
+2022-11-13 00:42:10,032 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:42:10,032 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:10,066 - Training - INFO - **** Epoch 900 (900/2000) ****
+2022-11-13 00:42:10,066 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:10,093 - Training - INFO - **** Epoch 1000 (1000/2000) ****
+2022-11-13 00:42:10,093 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:10,398 - Training - INFO - Training mean loss: 0.297758
+2022-11-13 00:42:10,399 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:42:10,401 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:10,459 - Training - INFO - **** Epoch 1100 (1100/2000) ****
+2022-11-13 00:42:10,459 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:10,491 - Training - INFO - **** Epoch 1200 (1200/2000) ****
+2022-11-13 00:42:10,491 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:10,797 - Training - INFO - Training mean loss: 0.266568
+2022-11-13 00:42:10,798 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:42:10,800 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:10,859 - Training - INFO - **** Epoch 1300 (1300/2000) ****
+2022-11-13 00:42:10,859 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:10,892 - Training - INFO - **** Epoch 1400 (1400/2000) ****
+2022-11-13 00:42:10,892 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:11,198 - Training - INFO - Training mean loss: 0.241298
+2022-11-13 00:42:11,198 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:42:11,201 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:11,258 - Training - INFO - **** Epoch 1500 (1500/2000) ****
+2022-11-13 00:42:11,258 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:11,291 - Training - INFO - **** Epoch 1600 (1600/2000) ****
+2022-11-13 00:42:11,291 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:11,597 - Training - INFO - Training mean loss: 0.220065
+2022-11-13 00:42:11,597 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:42:11,597 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:11,641 - Training - INFO - **** Epoch 1700 (1700/2000) ****
+2022-11-13 00:42:11,641 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:11,671 - Training - INFO - **** Epoch 1800 (1800/2000) ****
+2022-11-13 00:42:11,671 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:11,977 - Training - INFO - Training mean loss: 0.202719
+2022-11-13 00:42:11,977 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:42:11,979 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:12,036 - Training - INFO - **** Epoch 1900 (1900/2000) ****
+2022-11-13 00:42:12,036 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:12,069 - Training - INFO - **** Epoch 2000 (2000/2000) ****
+2022-11-13 00:42:12,069 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:12,374 - Training - INFO - Training mean loss: 0.189779
+2022-11-13 00:42:12,375 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:42:12,377 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:21,751 - Training - INFO - PARAMETER ...
+2022-11-13 00:42:21,751 - Training - INFO - Namespace(model='mlp', dim=3, hidden=16, epoch=2000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[3, 8, 9, 13, 18, 19, 21, 28, 29])
+2022-11-13 00:42:21,753 - Training - INFO - The number of training data is: 21.
+2022-11-13 00:42:21,753 - Training - INFO - The number of validating data is: 9.
+2022-11-13 00:42:21,786 - Training - INFO - **** Epoch 100 (100/2000) ****
+2022-11-13 00:42:21,786 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:21,811 - Training - INFO - **** Epoch 200 (200/2000) ****
+2022-11-13 00:42:21,811 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:22,117 - Training - INFO - Training mean loss: 0.585095
+2022-11-13 00:42:22,118 - Training - INFO - Training accuracy: 0.857143
+2022-11-13 00:42:22,119 - Training - INFO - Validating accuracy: 0.555556
+
+2022-11-13 00:42:22,177 - Training - INFO - **** Epoch 300 (300/2000) ****
+2022-11-13 00:42:22,177 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:22,210 - Training - INFO - **** Epoch 400 (400/2000) ****
+2022-11-13 00:42:22,210 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:22,515 - Training - INFO - Training mean loss: 0.449648
+2022-11-13 00:42:22,515 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:42:22,517 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:42:22,574 - Training - INFO - **** Epoch 500 (500/2000) ****
+2022-11-13 00:42:22,574 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:22,606 - Training - INFO - **** Epoch 600 (600/2000) ****
+2022-11-13 00:42:22,606 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:22,908 - Training - INFO - Training mean loss: 0.365070
+2022-11-13 00:42:22,908 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:42:22,909 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:42:22,956 - Training - INFO - **** Epoch 700 (700/2000) ****
+2022-11-13 00:42:22,956 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:22,986 - Training - INFO - **** Epoch 800 (800/2000) ****
+2022-11-13 00:42:22,986 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:23,292 - Training - INFO - Training mean loss: 0.313615
+2022-11-13 00:42:23,292 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:42:23,294 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:42:23,353 - Training - INFO - **** Epoch 900 (900/2000) ****
+2022-11-13 00:42:23,353 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:23,385 - Training - INFO - **** Epoch 1000 (1000/2000) ****
+2022-11-13 00:42:23,386 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:39,653 - Training - INFO - PARAMETER ...
+2022-11-13 00:42:39,653 - Training - INFO - Namespace(model='mlp', dim=3, hidden=16, epoch=10000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[3, 8, 9, 13, 18, 19, 21, 28, 29])
+2022-11-13 00:42:39,655 - Training - INFO - The number of training data is: 21.
+2022-11-13 00:42:39,655 - Training - INFO - The number of validating data is: 9.
+2022-11-13 00:42:39,692 - Training - INFO - **** Epoch 100 (100/10000) ****
+2022-11-13 00:42:39,692 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:39,718 - Training - INFO - **** Epoch 200 (200/10000) ****
+2022-11-13 00:42:39,718 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:40,023 - Training - INFO - Training mean loss: 0.623523
+2022-11-13 00:42:40,024 - Training - INFO - Training accuracy: 0.714286
+2022-11-13 00:42:40,026 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:42:40,086 - Training - INFO - **** Epoch 300 (300/10000) ****
+2022-11-13 00:42:40,086 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:40,118 - Training - INFO - **** Epoch 400 (400/10000) ****
+2022-11-13 00:42:40,119 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:40,424 - Training - INFO - Training mean loss: 0.516302
+2022-11-13 00:42:40,425 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:42:40,427 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:42:40,487 - Training - INFO - **** Epoch 500 (500/10000) ****
+2022-11-13 00:42:40,487 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:40,520 - Training - INFO - **** Epoch 600 (600/10000) ****
+2022-11-13 00:42:40,520 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:40,826 - Training - INFO - Training mean loss: 0.431175
+2022-11-13 00:42:40,826 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:42:40,828 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:42:40,887 - Training - INFO - **** Epoch 700 (700/10000) ****
+2022-11-13 00:42:40,887 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:40,920 - Training - INFO - **** Epoch 800 (800/10000) ****
+2022-11-13 00:42:40,920 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:41,225 - Training - INFO - Training mean loss: 0.358023
+2022-11-13 00:42:41,226 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:42:41,229 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:42:41,288 - Training - INFO - **** Epoch 900 (900/10000) ****
+2022-11-13 00:42:41,289 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:41,321 - Training - INFO - **** Epoch 1000 (1000/10000) ****
+2022-11-13 00:42:41,321 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:41,627 - Training - INFO - Training mean loss: 0.295051
+2022-11-13 00:42:41,628 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:42:41,630 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:42:41,684 - Training - INFO - **** Epoch 1100 (1100/10000) ****
+2022-11-13 00:42:41,684 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:41,715 - Training - INFO - **** Epoch 1200 (1200/10000) ****
+2022-11-13 00:42:41,715 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:42,021 - Training - INFO - Training mean loss: 0.236061
+2022-11-13 00:42:42,022 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:42:42,023 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:42:42,083 - Training - INFO - **** Epoch 1300 (1300/10000) ****
+2022-11-13 00:42:42,083 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:42,116 - Training - INFO - **** Epoch 1400 (1400/10000) ****
+2022-11-13 00:42:42,116 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:42,421 - Training - INFO - Training mean loss: 0.181085
+2022-11-13 00:42:42,422 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:42:42,423 - Training - INFO - Validating accuracy: 0.666667
+
+2022-11-13 00:42:42,483 - Training - INFO - **** Epoch 1500 (1500/10000) ****
+2022-11-13 00:42:42,483 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:42,516 - Training - INFO - **** Epoch 1600 (1600/10000) ****
+2022-11-13 00:42:42,516 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:42,822 - Training - INFO - Training mean loss: 0.138475
+2022-11-13 00:42:42,822 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:42,825 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:42,882 - Training - INFO - **** Epoch 1700 (1700/10000) ****
+2022-11-13 00:42:42,882 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:42,915 - Training - INFO - **** Epoch 1800 (1800/10000) ****
+2022-11-13 00:42:42,915 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:43,220 - Training - INFO - Training mean loss: 0.106063
+2022-11-13 00:42:43,221 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:43,223 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:43,281 - Training - INFO - **** Epoch 1900 (1900/10000) ****
+2022-11-13 00:42:43,281 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:43,313 - Training - INFO - **** Epoch 2000 (2000/10000) ****
+2022-11-13 00:42:43,313 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:43,618 - Training - INFO - Training mean loss: 0.081942
+2022-11-13 00:42:43,619 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:43,621 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:43,675 - Training - INFO - **** Epoch 2100 (2100/10000) ****
+2022-11-13 00:42:43,675 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:43,708 - Training - INFO - **** Epoch 2200 (2200/10000) ****
+2022-11-13 00:42:43,708 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:44,013 - Training - INFO - Training mean loss: 0.065105
+2022-11-13 00:42:44,014 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:44,015 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:44,074 - Training - INFO - **** Epoch 2300 (2300/10000) ****
+2022-11-13 00:42:44,074 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:44,107 - Training - INFO - **** Epoch 2400 (2400/10000) ****
+2022-11-13 00:42:44,107 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:44,412 - Training - INFO - Training mean loss: 0.052782
+2022-11-13 00:42:44,413 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:44,414 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:44,471 - Training - INFO - **** Epoch 2500 (2500/10000) ****
+2022-11-13 00:42:44,471 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:44,503 - Training - INFO - **** Epoch 2600 (2600/10000) ****
+2022-11-13 00:42:44,503 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:44,809 - Training - INFO - Training mean loss: 0.043814
+2022-11-13 00:42:44,809 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:44,811 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:44,870 - Training - INFO - **** Epoch 2700 (2700/10000) ****
+2022-11-13 00:42:44,871 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:44,904 - Training - INFO - **** Epoch 2800 (2800/10000) ****
+2022-11-13 00:42:44,904 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:45,209 - Training - INFO - Training mean loss: 0.037120
+2022-11-13 00:42:45,210 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:45,212 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:45,270 - Training - INFO - **** Epoch 2900 (2900/10000) ****
+2022-11-13 00:42:45,270 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:45,302 - Training - INFO - **** Epoch 3000 (3000/10000) ****
+2022-11-13 00:42:45,302 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:45,608 - Training - INFO - Training mean loss: 0.031900
+2022-11-13 00:42:45,609 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:45,611 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:45,669 - Training - INFO - **** Epoch 3100 (3100/10000) ****
+2022-11-13 00:42:45,669 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:45,702 - Training - INFO - **** Epoch 3200 (3200/10000) ****
+2022-11-13 00:42:45,702 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:46,008 - Training - INFO - Training mean loss: 0.027943
+2022-11-13 00:42:46,009 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:46,011 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:46,070 - Training - INFO - **** Epoch 3300 (3300/10000) ****
+2022-11-13 00:42:46,070 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:46,102 - Training - INFO - **** Epoch 3400 (3400/10000) ****
+2022-11-13 00:42:46,102 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:46,408 - Training - INFO - Training mean loss: 0.024726
+2022-11-13 00:42:46,408 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:46,410 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:46,467 - Training - INFO - **** Epoch 3500 (3500/10000) ****
+2022-11-13 00:42:46,467 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:46,499 - Training - INFO - **** Epoch 3600 (3600/10000) ****
+2022-11-13 00:42:46,500 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:46,805 - Training - INFO - Training mean loss: 0.022054
+2022-11-13 00:42:46,806 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:46,808 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:46,866 - Training - INFO - **** Epoch 3700 (3700/10000) ****
+2022-11-13 00:42:46,866 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:46,899 - Training - INFO - **** Epoch 3800 (3800/10000) ****
+2022-11-13 00:42:46,899 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:47,204 - Training - INFO - Training mean loss: 0.019926
+2022-11-13 00:42:47,205 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:47,207 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:47,267 - Training - INFO - **** Epoch 3900 (3900/10000) ****
+2022-11-13 00:42:47,267 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:47,300 - Training - INFO - **** Epoch 4000 (4000/10000) ****
+2022-11-13 00:42:47,300 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:47,606 - Training - INFO - Training mean loss: 0.018061
+2022-11-13 00:42:47,607 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:47,609 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:47,669 - Training - INFO - **** Epoch 4100 (4100/10000) ****
+2022-11-13 00:42:47,669 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:47,702 - Training - INFO - **** Epoch 4200 (4200/10000) ****
+2022-11-13 00:42:47,702 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:48,007 - Training - INFO - Training mean loss: 0.016536
+2022-11-13 00:42:48,008 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:48,010 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:48,066 - Training - INFO - **** Epoch 4300 (4300/10000) ****
+2022-11-13 00:42:48,066 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:48,099 - Training - INFO - **** Epoch 4400 (4400/10000) ****
+2022-11-13 00:42:48,099 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:48,404 - Training - INFO - Training mean loss: 0.015189
+2022-11-13 00:42:48,405 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:48,407 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:48,466 - Training - INFO - **** Epoch 4500 (4500/10000) ****
+2022-11-13 00:42:48,466 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:48,499 - Training - INFO - **** Epoch 4600 (4600/10000) ****
+2022-11-13 00:42:48,499 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:48,804 - Training - INFO - Training mean loss: 0.014055
+2022-11-13 00:42:48,805 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:48,806 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:48,859 - Training - INFO - **** Epoch 4700 (4700/10000) ****
+2022-11-13 00:42:48,859 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:48,891 - Training - INFO - **** Epoch 4800 (4800/10000) ****
+2022-11-13 00:42:48,891 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:49,194 - Training - INFO - Training mean loss: 0.013044
+2022-11-13 00:42:49,195 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:49,197 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:49,258 - Training - INFO - **** Epoch 4900 (4900/10000) ****
+2022-11-13 00:42:49,258 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:49,291 - Training - INFO - **** Epoch 5000 (5000/10000) ****
+2022-11-13 00:42:49,291 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:49,596 - Training - INFO - Training mean loss: 0.012162
+2022-11-13 00:42:49,597 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:49,599 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:49,658 - Training - INFO - **** Epoch 5100 (5100/10000) ****
+2022-11-13 00:42:49,658 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:49,691 - Training - INFO - **** Epoch 5200 (5200/10000) ****
+2022-11-13 00:42:49,691 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:49,995 - Training - INFO - Training mean loss: 0.011383
+2022-11-13 00:42:49,996 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:49,996 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:50,040 - Training - INFO - **** Epoch 5300 (5300/10000) ****
+2022-11-13 00:42:50,040 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:50,070 - Training - INFO - **** Epoch 5400 (5400/10000) ****
+2022-11-13 00:42:50,070 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:50,376 - Training - INFO - Training mean loss: 0.010690
+2022-11-13 00:42:50,376 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:50,378 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:50,438 - Training - INFO - **** Epoch 5500 (5500/10000) ****
+2022-11-13 00:42:50,438 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:50,472 - Training - INFO - **** Epoch 5600 (5600/10000) ****
+2022-11-13 00:42:50,472 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:50,777 - Training - INFO - Training mean loss: 0.010059
+2022-11-13 00:42:50,778 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:50,780 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:50,837 - Training - INFO - **** Epoch 5700 (5700/10000) ****
+2022-11-13 00:42:50,837 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:50,870 - Training - INFO - **** Epoch 5800 (5800/10000) ****
+2022-11-13 00:42:50,870 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:51,175 - Training - INFO - Training mean loss: 0.009495
+2022-11-13 00:42:51,175 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:51,175 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:51,216 - Training - INFO - **** Epoch 5900 (5900/10000) ****
+2022-11-13 00:42:51,216 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:51,245 - Training - INFO - **** Epoch 6000 (6000/10000) ****
+2022-11-13 00:42:51,245 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:51,550 - Training - INFO - Training mean loss: 0.009002
+2022-11-13 00:42:51,551 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:51,552 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:51,612 - Training - INFO - **** Epoch 6100 (6100/10000) ****
+2022-11-13 00:42:51,612 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:51,644 - Training - INFO - **** Epoch 6200 (6200/10000) ****
+2022-11-13 00:42:51,645 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:51,950 - Training - INFO - Training mean loss: 0.008541
+2022-11-13 00:42:51,951 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:51,953 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:52,014 - Training - INFO - **** Epoch 6300 (6300/10000) ****
+2022-11-13 00:42:52,014 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:52,047 - Training - INFO - **** Epoch 6400 (6400/10000) ****
+2022-11-13 00:42:52,047 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:52,353 - Training - INFO - Training mean loss: 0.008120
+2022-11-13 00:42:52,354 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:52,356 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:52,412 - Training - INFO - **** Epoch 6500 (6500/10000) ****
+2022-11-13 00:42:52,412 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:52,445 - Training - INFO - **** Epoch 6600 (6600/10000) ****
+2022-11-13 00:42:52,445 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:52,751 - Training - INFO - Training mean loss: 0.007738
+2022-11-13 00:42:52,751 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:52,753 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:52,812 - Training - INFO - **** Epoch 6700 (6700/10000) ****
+2022-11-13 00:42:52,812 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:52,845 - Training - INFO - **** Epoch 6800 (6800/10000) ****
+2022-11-13 00:42:52,845 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:53,151 - Training - INFO - Training mean loss: 0.007383
+2022-11-13 00:42:53,151 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:53,153 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:53,211 - Training - INFO - **** Epoch 6900 (6900/10000) ****
+2022-11-13 00:42:53,212 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:53,244 - Training - INFO - **** Epoch 7000 (7000/10000) ****
+2022-11-13 00:42:53,244 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:53,550 - Training - INFO - Training mean loss: 0.007060
+2022-11-13 00:42:53,550 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:53,552 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:53,610 - Training - INFO - **** Epoch 7100 (7100/10000) ****
+2022-11-13 00:42:53,610 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:53,643 - Training - INFO - **** Epoch 7200 (7200/10000) ****
+2022-11-13 00:42:53,643 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:53,948 - Training - INFO - Training mean loss: 0.006763
+2022-11-13 00:42:53,949 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:53,951 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:54,009 - Training - INFO - **** Epoch 7300 (7300/10000) ****
+2022-11-13 00:42:54,009 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:54,042 - Training - INFO - **** Epoch 7400 (7400/10000) ****
+2022-11-13 00:42:54,042 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:54,348 - Training - INFO - Training mean loss: 0.006482
+2022-11-13 00:42:54,349 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:54,350 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:54,408 - Training - INFO - **** Epoch 7500 (7500/10000) ****
+2022-11-13 00:42:54,408 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:54,441 - Training - INFO - **** Epoch 7600 (7600/10000) ****
+2022-11-13 00:42:54,441 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:54,746 - Training - INFO - Training mean loss: 0.006228
+2022-11-13 00:42:54,747 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:54,749 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:54,809 - Training - INFO - **** Epoch 7700 (7700/10000) ****
+2022-11-13 00:42:54,809 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:54,842 - Training - INFO - **** Epoch 7800 (7800/10000) ****
+2022-11-13 00:42:54,842 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:55,148 - Training - INFO - Training mean loss: 0.005987
+2022-11-13 00:42:55,148 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:55,150 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:55,209 - Training - INFO - **** Epoch 7900 (7900/10000) ****
+2022-11-13 00:42:55,209 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:55,242 - Training - INFO - **** Epoch 8000 (8000/10000) ****
+2022-11-13 00:42:55,242 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:55,548 - Training - INFO - Training mean loss: 0.005763
+2022-11-13 00:42:55,549 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:55,550 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:55,609 - Training - INFO - **** Epoch 8100 (8100/10000) ****
+2022-11-13 00:42:55,609 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:55,642 - Training - INFO - **** Epoch 8200 (8200/10000) ****
+2022-11-13 00:42:55,642 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:55,947 - Training - INFO - Training mean loss: 0.005555
+2022-11-13 00:42:55,948 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:55,950 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:56,008 - Training - INFO - **** Epoch 8300 (8300/10000) ****
+2022-11-13 00:42:56,009 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:56,041 - Training - INFO - **** Epoch 8400 (8400/10000) ****
+2022-11-13 00:42:56,041 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:56,347 - Training - INFO - Training mean loss: 0.005359
+2022-11-13 00:42:56,348 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:56,350 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:56,409 - Training - INFO - **** Epoch 8500 (8500/10000) ****
+2022-11-13 00:42:56,409 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:56,442 - Training - INFO - **** Epoch 8600 (8600/10000) ****
+2022-11-13 00:42:56,442 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:56,748 - Training - INFO - Training mean loss: 0.005177
+2022-11-13 00:42:56,749 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:56,751 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:56,810 - Training - INFO - **** Epoch 8700 (8700/10000) ****
+2022-11-13 00:42:56,810 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:56,843 - Training - INFO - **** Epoch 8800 (8800/10000) ****
+2022-11-13 00:42:56,843 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:57,149 - Training - INFO - Training mean loss: 0.005008
+2022-11-13 00:42:57,150 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:57,152 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:57,209 - Training - INFO - **** Epoch 8900 (8900/10000) ****
+2022-11-13 00:42:57,209 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:57,242 - Training - INFO - **** Epoch 9000 (9000/10000) ****
+2022-11-13 00:42:57,242 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:57,547 - Training - INFO - Training mean loss: 0.004843
+2022-11-13 00:42:57,548 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:57,549 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:57,609 - Training - INFO - **** Epoch 9100 (9100/10000) ****
+2022-11-13 00:42:57,609 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:57,642 - Training - INFO - **** Epoch 9200 (9200/10000) ****
+2022-11-13 00:42:57,642 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:57,947 - Training - INFO - Training mean loss: 0.004691
+2022-11-13 00:42:57,948 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:57,950 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:58,008 - Training - INFO - **** Epoch 9300 (9300/10000) ****
+2022-11-13 00:42:58,008 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:58,041 - Training - INFO - **** Epoch 9400 (9400/10000) ****
+2022-11-13 00:42:58,041 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:58,347 - Training - INFO - Training mean loss: 0.004546
+2022-11-13 00:42:58,348 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:58,350 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:58,407 - Training - INFO - **** Epoch 9500 (9500/10000) ****
+2022-11-13 00:42:58,407 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:58,440 - Training - INFO - **** Epoch 9600 (9600/10000) ****
+2022-11-13 00:42:58,440 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:58,745 - Training - INFO - Training mean loss: 0.004411
+2022-11-13 00:42:58,746 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:58,748 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:58,807 - Training - INFO - **** Epoch 9700 (9700/10000) ****
+2022-11-13 00:42:58,808 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:58,840 - Training - INFO - **** Epoch 9800 (9800/10000) ****
+2022-11-13 00:42:58,840 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:59,143 - Training - INFO - Training mean loss: 0.004283
+2022-11-13 00:42:59,144 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:59,144 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:42:59,184 - Training - INFO - **** Epoch 9900 (9900/10000) ****
+2022-11-13 00:42:59,184 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:59,213 - Training - INFO - **** Epoch 10000 (10000/10000) ****
+2022-11-13 00:42:59,213 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:42:59,518 - Training - INFO - Training mean loss: 0.004161
+2022-11-13 00:42:59,518 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 00:42:59,519 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:43:37,462 - Training - INFO - PARAMETER ...
+2022-11-13 00:43:37,462 - Training - INFO - Namespace(model='mlp', dim=3, hidden=16, epoch=3000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[0, 1, 2, 12, 14, 15, 20, 22, 29])
+2022-11-13 00:43:37,470 - Training - INFO - The number of training data is: 21.
+2022-11-13 00:43:37,471 - Training - INFO - The number of validating data is: 9.
+2022-11-13 00:43:37,509 - Training - INFO - **** Epoch 100 (100/3000) ****
+2022-11-13 00:43:37,509 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:37,535 - Training - INFO - **** Epoch 200 (200/3000) ****
+2022-11-13 00:43:37,535 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:37,841 - Training - INFO - Training mean loss: 0.615332
+2022-11-13 00:43:37,842 - Training - INFO - Training accuracy: 0.761905
+2022-11-13 00:43:37,844 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:43:37,902 - Training - INFO - **** Epoch 300 (300/3000) ****
+2022-11-13 00:43:37,902 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:37,935 - Training - INFO - **** Epoch 400 (400/3000) ****
+2022-11-13 00:43:37,935 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:38,240 - Training - INFO - Training mean loss: 0.489053
+2022-11-13 00:43:38,241 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:43:38,244 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 00:43:38,303 - Training - INFO - **** Epoch 500 (500/3000) ****
+2022-11-13 00:43:38,303 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:38,336 - Training - INFO - **** Epoch 600 (600/3000) ****
+2022-11-13 00:43:38,336 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:38,641 - Training - INFO - Training mean loss: 0.395853
+2022-11-13 00:43:38,642 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:43:38,643 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 00:43:38,697 - Training - INFO - **** Epoch 700 (700/3000) ****
+2022-11-13 00:43:38,697 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:38,729 - Training - INFO - **** Epoch 800 (800/3000) ****
+2022-11-13 00:43:38,729 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:39,035 - Training - INFO - Training mean loss: 0.318148
+2022-11-13 00:43:39,035 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 00:43:39,037 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 00:43:39,095 - Training - INFO - **** Epoch 900 (900/3000) ****
+2022-11-13 00:43:39,095 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:39,127 - Training - INFO - **** Epoch 1000 (1000/3000) ****
+2022-11-13 00:43:39,128 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:39,433 - Training - INFO - Training mean loss: 0.264648
+2022-11-13 00:43:39,434 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:43:39,435 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 00:43:39,494 - Training - INFO - **** Epoch 1100 (1100/3000) ****
+2022-11-13 00:43:39,495 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:39,527 - Training - INFO - **** Epoch 1200 (1200/3000) ****
+2022-11-13 00:43:39,527 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:39,833 - Training - INFO - Training mean loss: 0.223004
+2022-11-13 00:43:39,834 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:43:39,836 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 00:43:39,895 - Training - INFO - **** Epoch 1300 (1300/3000) ****
+2022-11-13 00:43:39,895 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:39,928 - Training - INFO - **** Epoch 1400 (1400/3000) ****
+2022-11-13 00:43:39,928 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:40,233 - Training - INFO - Training mean loss: 0.192736
+2022-11-13 00:43:40,234 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:43:40,236 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 00:43:40,293 - Training - INFO - **** Epoch 1500 (1500/3000) ****
+2022-11-13 00:43:40,293 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:40,326 - Training - INFO - **** Epoch 1600 (1600/3000) ****
+2022-11-13 00:43:40,326 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:40,632 - Training - INFO - Training mean loss: 0.170827
+2022-11-13 00:43:40,632 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:43:40,634 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 00:43:40,693 - Training - INFO - **** Epoch 1700 (1700/3000) ****
+2022-11-13 00:43:40,693 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:40,727 - Training - INFO - **** Epoch 1800 (1800/3000) ****
+2022-11-13 00:43:40,727 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:41,033 - Training - INFO - Training mean loss: 0.154887
+2022-11-13 00:43:41,033 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:43:41,035 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 00:43:41,097 - Training - INFO - **** Epoch 1900 (1900/3000) ****
+2022-11-13 00:43:41,097 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:41,130 - Training - INFO - **** Epoch 2000 (2000/3000) ****
+2022-11-13 00:43:41,130 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:41,436 - Training - INFO - Training mean loss: 0.142407
+2022-11-13 00:43:41,436 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:43:41,438 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 00:43:41,500 - Training - INFO - **** Epoch 2100 (2100/3000) ****
+2022-11-13 00:43:41,500 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:41,534 - Training - INFO - **** Epoch 2200 (2200/3000) ****
+2022-11-13 00:43:41,534 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:41,839 - Training - INFO - Training mean loss: 0.131205
+2022-11-13 00:43:41,840 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:43:41,842 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:43:41,901 - Training - INFO - **** Epoch 2300 (2300/3000) ****
+2022-11-13 00:43:41,901 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:41,934 - Training - INFO - **** Epoch 2400 (2400/3000) ****
+2022-11-13 00:43:41,934 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:42,240 - Training - INFO - Training mean loss: 0.120738
+2022-11-13 00:43:42,240 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:43:42,242 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:43:42,302 - Training - INFO - **** Epoch 2500 (2500/3000) ****
+2022-11-13 00:43:42,302 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:42,335 - Training - INFO - **** Epoch 2600 (2600/3000) ****
+2022-11-13 00:43:42,335 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:42,640 - Training - INFO - Training mean loss: 0.110222
+2022-11-13 00:43:42,641 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:43:42,642 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:43:42,702 - Training - INFO - **** Epoch 2700 (2700/3000) ****
+2022-11-13 00:43:42,702 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:42,735 - Training - INFO - **** Epoch 2800 (2800/3000) ****
+2022-11-13 00:43:42,735 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:43,041 - Training - INFO - Training mean loss: 0.098624
+2022-11-13 00:43:43,042 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:43:43,044 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 00:43:43,102 - Training - INFO - **** Epoch 2900 (2900/3000) ****
+2022-11-13 00:43:43,103 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:43,135 - Training - INFO - **** Epoch 3000 (3000/3000) ****
+2022-11-13 00:43:43,135 - Training - INFO - Learning rate:0.010000
+2022-11-13 00:43:43,441 - Training - INFO - Training mean loss: 0.087144
+2022-11-13 00:43:43,441 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 00:43:43,444 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 17:19:20,453 - Training - INFO - PARAMETER ...
+2022-11-13 17:19:20,454 - Training - INFO - Namespace(model='mlp', dim=3, hidden=16, epoch=3000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[0, 1, 2, 12, 14, 15, 20, 22, 29])
+2022-11-13 17:19:20,457 - Training - INFO - The number of training data is: 21.
+2022-11-13 17:19:20,458 - Training - INFO - The number of validating data is: 9.
+2022-11-13 17:19:55,948 - Training - INFO - PARAMETER ...
+2022-11-13 17:19:55,948 - Training - INFO - Namespace(model='mlp', dim=3, hidden=16, epoch=3000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[0, 1, 2, 12, 14, 15, 20, 22, 29])
+2022-11-13 17:19:55,949 - Training - INFO - The number of training data is: 21.
+2022-11-13 17:19:55,950 - Training - INFO - The number of validating data is: 9.
+2022-11-13 17:19:55,985 - Training - INFO - **** Epoch 100 (100/3000) ****
+2022-11-13 17:19:55,985 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:56,012 - Training - INFO - **** Epoch 200 (200/3000) ****
+2022-11-13 17:19:56,012 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:56,318 - Training - INFO - Training mean loss: 0.198324
+2022-11-13 17:19:56,319 - Training - INFO - Training accuracy: 0.809524
+2022-11-13 17:19:56,321 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 17:19:56,380 - Training - INFO - **** Epoch 300 (300/3000) ****
+2022-11-13 17:19:56,380 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:56,413 - Training - INFO - **** Epoch 400 (400/3000) ****
+2022-11-13 17:19:56,413 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:56,719 - Training - INFO - Training mean loss: 0.152449
+2022-11-13 17:19:56,720 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 17:19:56,722 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 17:19:56,780 - Training - INFO - **** Epoch 500 (500/3000) ****
+2022-11-13 17:19:56,781 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:56,814 - Training - INFO - **** Epoch 600 (600/3000) ****
+2022-11-13 17:19:56,814 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:57,119 - Training - INFO - Training mean loss: 0.122293
+2022-11-13 17:19:57,120 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 17:19:57,122 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 17:19:57,181 - Training - INFO - **** Epoch 700 (700/3000) ****
+2022-11-13 17:19:57,181 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:57,214 - Training - INFO - **** Epoch 800 (800/3000) ****
+2022-11-13 17:19:57,214 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:57,520 - Training - INFO - Training mean loss: 0.099878
+2022-11-13 17:19:57,521 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 17:19:57,523 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 17:19:57,581 - Training - INFO - **** Epoch 900 (900/3000) ****
+2022-11-13 17:19:57,581 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:57,614 - Training - INFO - **** Epoch 1000 (1000/3000) ****
+2022-11-13 17:19:57,614 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:57,920 - Training - INFO - Training mean loss: 0.083051
+2022-11-13 17:19:57,920 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:19:57,923 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 17:19:57,981 - Training - INFO - **** Epoch 1100 (1100/3000) ****
+2022-11-13 17:19:57,981 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:58,015 - Training - INFO - **** Epoch 1200 (1200/3000) ****
+2022-11-13 17:19:58,015 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:58,320 - Training - INFO - Training mean loss: 0.071052
+2022-11-13 17:19:58,321 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:19:58,323 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 17:19:58,382 - Training - INFO - **** Epoch 1300 (1300/3000) ****
+2022-11-13 17:19:58,382 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:58,415 - Training - INFO - **** Epoch 1400 (1400/3000) ****
+2022-11-13 17:19:58,415 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:58,721 - Training - INFO - Training mean loss: 0.062877
+2022-11-13 17:19:58,722 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:19:58,724 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 17:19:58,782 - Training - INFO - **** Epoch 1500 (1500/3000) ****
+2022-11-13 17:19:58,782 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:58,815 - Training - INFO - **** Epoch 1600 (1600/3000) ****
+2022-11-13 17:19:58,815 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:59,121 - Training - INFO - Training mean loss: 0.057202
+2022-11-13 17:19:59,121 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:19:59,124 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 17:19:59,182 - Training - INFO - **** Epoch 1700 (1700/3000) ****
+2022-11-13 17:19:59,182 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:59,216 - Training - INFO - **** Epoch 1800 (1800/3000) ****
+2022-11-13 17:19:59,216 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:59,521 - Training - INFO - Training mean loss: 0.053044
+2022-11-13 17:19:59,522 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:19:59,524 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 17:19:59,584 - Training - INFO - **** Epoch 1900 (1900/3000) ****
+2022-11-13 17:19:59,585 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:59,618 - Training - INFO - **** Epoch 2000 (2000/3000) ****
+2022-11-13 17:19:59,618 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:19:59,923 - Training - INFO - Training mean loss: 0.049683
+2022-11-13 17:19:59,924 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:19:59,926 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 17:19:59,984 - Training - INFO - **** Epoch 2100 (2100/3000) ****
+2022-11-13 17:19:59,985 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:20:00,018 - Training - INFO - **** Epoch 2200 (2200/3000) ****
+2022-11-13 17:20:00,018 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:20:00,323 - Training - INFO - Training mean loss: 0.046832
+2022-11-13 17:20:00,324 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:20:00,326 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 17:20:00,384 - Training - INFO - **** Epoch 2300 (2300/3000) ****
+2022-11-13 17:20:00,384 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:20:00,417 - Training - INFO - **** Epoch 2400 (2400/3000) ****
+2022-11-13 17:20:00,417 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:20:00,723 - Training - INFO - Training mean loss: 0.044271
+2022-11-13 17:20:00,723 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:20:00,724 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 17:20:00,781 - Training - INFO - **** Epoch 2500 (2500/3000) ****
+2022-11-13 17:20:00,781 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:20:00,814 - Training - INFO - **** Epoch 2600 (2600/3000) ****
+2022-11-13 17:20:00,814 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:20:01,120 - Training - INFO - Training mean loss: 0.041829
+2022-11-13 17:20:01,120 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:20:01,120 - Training - INFO - Validating accuracy: 0.888889
+
+2022-11-13 17:20:01,158 - Training - INFO - **** Epoch 2700 (2700/3000) ****
+2022-11-13 17:20:01,158 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:20:01,186 - Training - INFO - **** Epoch 2800 (2800/3000) ****
+2022-11-13 17:20:01,186 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:20:01,492 - Training - INFO - Training mean loss: 0.039292
+2022-11-13 17:20:01,492 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:20:01,493 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 17:20:01,545 - Training - INFO - **** Epoch 2900 (2900/3000) ****
+2022-11-13 17:20:01,545 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:20:01,577 - Training - INFO - **** Epoch 3000 (3000/3000) ****
+2022-11-13 17:20:01,577 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:20:01,883 - Training - INFO - Training mean loss: 0.036556
+2022-11-13 17:20:01,883 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:20:01,885 - Training - INFO - Validating accuracy: 0.777778
+
+2022-11-13 17:27:23,245 - Training - INFO - PARAMETER ...
+2022-11-13 17:27:23,245 - Training - INFO - Namespace(model='mlp', dim=3, hidden=16, epoch=3000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[0, 1, 2, 12, 14, 15, 20, 22, 29])
+2022-11-13 17:27:23,247 - Training - INFO - The number of training data is: 21.
+2022-11-13 17:27:23,247 - Training - INFO - The number of validating data is: 9.
+2022-11-13 17:27:23,650 - Training - INFO - **** Epoch 200 (200/3000) ****
+2022-11-13 17:27:23,651 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:23,651 - Training - INFO - Training mean loss: 0.200511
+2022-11-13 17:27:23,651 - Training - INFO - Training accuracy: 0.809524
+2022-11-13 17:27:23,652 - Training - INFO - Evaluating mean loss: 0.214025
+
+2022-11-13 17:27:23,652 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:24,090 - Training - INFO - **** Epoch 400 (400/3000) ****
+2022-11-13 17:27:24,091 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:24,091 - Training - INFO - Training mean loss: 0.153364
+2022-11-13 17:27:24,091 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 17:27:24,091 - Training - INFO - Evaluating mean loss: 0.182597
+
+2022-11-13 17:27:24,091 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:24,528 - Training - INFO - **** Epoch 600 (600/3000) ****
+2022-11-13 17:27:24,528 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:24,528 - Training - INFO - Training mean loss: 0.119587
+2022-11-13 17:27:24,528 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 17:27:24,529 - Training - INFO - Evaluating mean loss: 0.170077
+
+2022-11-13 17:27:24,529 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:24,965 - Training - INFO - **** Epoch 800 (800/3000) ****
+2022-11-13 17:27:24,966 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:24,966 - Training - INFO - Training mean loss: 0.095346
+2022-11-13 17:27:24,966 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:24,966 - Training - INFO - Evaluating mean loss: 0.162810
+
+2022-11-13 17:27:24,966 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:25,406 - Training - INFO - **** Epoch 1000 (1000/3000) ****
+2022-11-13 17:27:25,406 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:25,406 - Training - INFO - Training mean loss: 0.078096
+2022-11-13 17:27:25,406 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:25,407 - Training - INFO - Evaluating mean loss: 0.160884
+
+2022-11-13 17:27:25,407 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:25,845 - Training - INFO - **** Epoch 1200 (1200/3000) ****
+2022-11-13 17:27:25,845 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:25,845 - Training - INFO - Training mean loss: 0.065798
+2022-11-13 17:27:25,846 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:25,846 - Training - INFO - Evaluating mean loss: 0.159998
+
+2022-11-13 17:27:25,846 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:26,282 - Training - INFO - **** Epoch 1400 (1400/3000) ****
+2022-11-13 17:27:26,283 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:26,283 - Training - INFO - Training mean loss: 0.056985
+2022-11-13 17:27:26,283 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:26,284 - Training - INFO - Evaluating mean loss: 0.159512
+
+2022-11-13 17:27:26,284 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:26,725 - Training - INFO - **** Epoch 1600 (1600/3000) ****
+2022-11-13 17:27:26,725 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:26,725 - Training - INFO - Training mean loss: 0.050282
+2022-11-13 17:27:26,725 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:26,725 - Training - INFO - Evaluating mean loss: 0.160023
+
+2022-11-13 17:27:26,725 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:27,126 - Training - INFO - **** Epoch 1800 (1800/3000) ****
+2022-11-13 17:27:27,126 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:27,127 - Training - INFO - Training mean loss: 0.044550
+2022-11-13 17:27:27,127 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:27,127 - Training - INFO - Evaluating mean loss: 0.161727
+
+2022-11-13 17:27:27,127 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:27,565 - Training - INFO - **** Epoch 2000 (2000/3000) ****
+2022-11-13 17:27:27,566 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:27,566 - Training - INFO - Training mean loss: 0.039489
+2022-11-13 17:27:27,566 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:27,566 - Training - INFO - Evaluating mean loss: 0.164470
+
+2022-11-13 17:27:27,566 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:28,004 - Training - INFO - **** Epoch 2200 (2200/3000) ****
+2022-11-13 17:27:28,005 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:28,005 - Training - INFO - Training mean loss: 0.034874
+2022-11-13 17:27:28,005 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:28,005 - Training - INFO - Evaluating mean loss: 0.168440
+
+2022-11-13 17:27:28,006 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:28,442 - Training - INFO - **** Epoch 2400 (2400/3000) ****
+2022-11-13 17:27:28,443 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:28,443 - Training - INFO - Training mean loss: 0.030341
+2022-11-13 17:27:28,443 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:28,443 - Training - INFO - Evaluating mean loss: 0.173354
+
+2022-11-13 17:27:28,443 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:28,880 - Training - INFO - **** Epoch 2600 (2600/3000) ****
+2022-11-13 17:27:28,881 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:28,881 - Training - INFO - Training mean loss: 0.026200
+2022-11-13 17:27:28,881 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 17:27:28,881 - Training - INFO - Evaluating mean loss: 0.178775
+
+2022-11-13 17:27:28,882 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:29,320 - Training - INFO - **** Epoch 2800 (2800/3000) ****
+2022-11-13 17:27:29,321 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:29,321 - Training - INFO - Training mean loss: 0.022426
+2022-11-13 17:27:29,321 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 17:27:29,321 - Training - INFO - Evaluating mean loss: 0.184041
+
+2022-11-13 17:27:29,321 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:29,754 - Training - INFO - **** Epoch 3000 (3000/3000) ****
+2022-11-13 17:27:29,754 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:29,754 - Training - INFO - Training mean loss: 0.019142
+2022-11-13 17:27:29,755 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 17:27:29,755 - Training - INFO - Evaluating mean loss: 0.188776
+
+2022-11-13 17:27:29,755 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:37,339 - Training - INFO - PARAMETER ...
+2022-11-13 17:27:37,339 - Training - INFO - Namespace(model='mlp', dim=3, hidden=16, epoch=3000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[0, 1, 2, 12, 14, 15, 20, 22, 29])
+2022-11-13 17:27:37,341 - Training - INFO - The number of training data is: 21.
+2022-11-13 17:27:37,341 - Training - INFO - The number of validating data is: 9.
+2022-11-13 17:27:37,745 - Training - INFO - **** Epoch 200 (200/3000) ****
+2022-11-13 17:27:37,746 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:37,746 - Training - INFO - Training mean loss: 0.202300
+2022-11-13 17:27:37,747 - Training - INFO - Training accuracy: 0.857143
+2022-11-13 17:27:37,747 - Training - INFO - Evaluating mean loss: 0.222904
+2022-11-13 17:27:37,747 - Training - INFO - Evaluating accuracy: 0.888889
+2022-11-13 17:27:38,184 - Training - INFO - **** Epoch 400 (400/3000) ****
+2022-11-13 17:27:38,185 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:38,185 - Training - INFO - Training mean loss: 0.156886
+2022-11-13 17:27:38,185 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 17:27:38,185 - Training - INFO - Evaluating mean loss: 0.188055
+2022-11-13 17:27:38,186 - Training - INFO - Evaluating accuracy: 0.888889
+2022-11-13 17:27:38,623 - Training - INFO - **** Epoch 600 (600/3000) ****
+2022-11-13 17:27:38,624 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:38,624 - Training - INFO - Training mean loss: 0.120852
+2022-11-13 17:27:38,624 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 17:27:38,624 - Training - INFO - Evaluating mean loss: 0.174664
+2022-11-13 17:27:38,624 - Training - INFO - Evaluating accuracy: 0.888889
+2022-11-13 17:27:39,066 - Training - INFO - **** Epoch 800 (800/3000) ****
+2022-11-13 17:27:39,066 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:39,066 - Training - INFO - Training mean loss: 0.097060
+2022-11-13 17:27:39,067 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:39,067 - Training - INFO - Evaluating mean loss: 0.165982
+2022-11-13 17:27:39,067 - Training - INFO - Evaluating accuracy: 0.888889
+2022-11-13 17:27:39,506 - Training - INFO - **** Epoch 1000 (1000/3000) ****
+2022-11-13 17:27:39,507 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:39,507 - Training - INFO - Training mean loss: 0.081616
+2022-11-13 17:27:39,507 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:39,507 - Training - INFO - Evaluating mean loss: 0.161307
+2022-11-13 17:27:39,508 - Training - INFO - Evaluating accuracy: 0.888889
+2022-11-13 17:27:39,941 - Training - INFO - **** Epoch 1200 (1200/3000) ****
+2022-11-13 17:27:39,941 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:39,941 - Training - INFO - Training mean loss: 0.070639
+2022-11-13 17:27:39,941 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:39,942 - Training - INFO - Evaluating mean loss: 0.158329
+2022-11-13 17:27:39,942 - Training - INFO - Evaluating accuracy: 0.888889
+2022-11-13 17:27:40,374 - Training - INFO - **** Epoch 1400 (1400/3000) ****
+2022-11-13 17:27:40,375 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:40,375 - Training - INFO - Training mean loss: 0.062946
+2022-11-13 17:27:40,375 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:40,375 - Training - INFO - Evaluating mean loss: 0.156914
+2022-11-13 17:27:40,375 - Training - INFO - Evaluating accuracy: 0.888889
+2022-11-13 17:27:40,813 - Training - INFO - **** Epoch 1600 (1600/3000) ****
+2022-11-13 17:27:40,814 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:40,814 - Training - INFO - Training mean loss: 0.057461
+2022-11-13 17:27:40,814 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:40,814 - Training - INFO - Evaluating mean loss: 0.156896
+2022-11-13 17:27:40,814 - Training - INFO - Evaluating accuracy: 0.888889
+2022-11-13 17:27:41,252 - Training - INFO - **** Epoch 1800 (1800/3000) ****
+2022-11-13 17:27:41,252 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:41,252 - Training - INFO - Training mean loss: 0.053413
+2022-11-13 17:27:41,253 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:41,253 - Training - INFO - Evaluating mean loss: 0.158084
+2022-11-13 17:27:41,253 - Training - INFO - Evaluating accuracy: 0.888889
+2022-11-13 17:27:41,689 - Training - INFO - **** Epoch 2000 (2000/3000) ****
+2022-11-13 17:27:41,690 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:41,690 - Training - INFO - Training mean loss: 0.050064
+2022-11-13 17:27:41,690 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:41,690 - Training - INFO - Evaluating mean loss: 0.160066
+2022-11-13 17:27:41,690 - Training - INFO - Evaluating accuracy: 0.888889
+2022-11-13 17:27:42,125 - Training - INFO - **** Epoch 2200 (2200/3000) ****
+2022-11-13 17:27:42,125 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:42,125 - Training - INFO - Training mean loss: 0.047309
+2022-11-13 17:27:42,125 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:42,126 - Training - INFO - Evaluating mean loss: 0.162512
+2022-11-13 17:27:42,126 - Training - INFO - Evaluating accuracy: 0.888889
+2022-11-13 17:27:42,562 - Training - INFO - **** Epoch 2400 (2400/3000) ****
+2022-11-13 17:27:42,562 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:42,562 - Training - INFO - Training mean loss: 0.044557
+2022-11-13 17:27:42,563 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:42,563 - Training - INFO - Evaluating mean loss: 0.165109
+2022-11-13 17:27:42,563 - Training - INFO - Evaluating accuracy: 0.888889
+2022-11-13 17:27:42,995 - Training - INFO - **** Epoch 2600 (2600/3000) ****
+2022-11-13 17:27:42,995 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:42,996 - Training - INFO - Training mean loss: 0.041843
+2022-11-13 17:27:42,996 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:42,996 - Training - INFO - Evaluating mean loss: 0.167753
+2022-11-13 17:27:42,996 - Training - INFO - Evaluating accuracy: 0.777778
+2022-11-13 17:27:43,423 - Training - INFO - **** Epoch 2800 (2800/3000) ****
+2022-11-13 17:27:43,423 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:43,423 - Training - INFO - Training mean loss: 0.038991
+2022-11-13 17:27:43,423 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:43,423 - Training - INFO - Evaluating mean loss: 0.170606
+2022-11-13 17:27:43,423 - Training - INFO - Evaluating accuracy: 0.777778
+2022-11-13 17:27:43,838 - Training - INFO - **** Epoch 3000 (3000/3000) ****
+2022-11-13 17:27:43,838 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:43,838 - Training - INFO - Training mean loss: 0.035762
+2022-11-13 17:27:43,838 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:43,838 - Training - INFO - Evaluating mean loss: 0.173745
+2022-11-13 17:27:43,838 - Training - INFO - Evaluating accuracy: 0.777778
+2022-11-13 17:27:47,297 - Training - INFO - PARAMETER ...
+2022-11-13 17:27:47,297 - Training - INFO - Namespace(model='mlp', dim=3, hidden=16, epoch=3000, batch_size=3, learning_rate=0.01, log_dir='test', eval_data=[0, 1, 2, 12, 14, 15, 20, 22, 29])
+2022-11-13 17:27:47,298 - Training - INFO - The number of training data is: 21.
+2022-11-13 17:27:47,299 - Training - INFO - The number of validating data is: 9.
+2022-11-13 17:27:47,703 - Training - INFO - **** Epoch 200 (200/3000) ****
+2022-11-13 17:27:47,705 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:47,705 - Training - INFO - Training mean loss: 0.206444
+2022-11-13 17:27:47,705 - Training - INFO - Training accuracy: 0.761905
+2022-11-13 17:27:47,705 - Training - INFO - Evaluating mean loss: 0.226063
+2022-11-13 17:27:47,705 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:48,148 - Training - INFO - **** Epoch 400 (400/3000) ****
+2022-11-13 17:27:48,148 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:48,148 - Training - INFO - Training mean loss: 0.169421
+2022-11-13 17:27:48,149 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 17:27:48,149 - Training - INFO - Evaluating mean loss: 0.191340
+2022-11-13 17:27:48,149 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:48,588 - Training - INFO - **** Epoch 600 (600/3000) ****
+2022-11-13 17:27:48,589 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:48,589 - Training - INFO - Training mean loss: 0.137941
+2022-11-13 17:27:48,589 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 17:27:48,589 - Training - INFO - Evaluating mean loss: 0.176176
+2022-11-13 17:27:48,590 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:49,030 - Training - INFO - **** Epoch 800 (800/3000) ****
+2022-11-13 17:27:49,031 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:49,031 - Training - INFO - Training mean loss: 0.113028
+2022-11-13 17:27:49,031 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 17:27:49,032 - Training - INFO - Evaluating mean loss: 0.163868
+2022-11-13 17:27:49,032 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:49,470 - Training - INFO - **** Epoch 1000 (1000/3000) ****
+2022-11-13 17:27:49,470 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:49,471 - Training - INFO - Training mean loss: 0.093340
+2022-11-13 17:27:49,471 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 17:27:49,471 - Training - INFO - Evaluating mean loss: 0.157123
+2022-11-13 17:27:49,471 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:49,908 - Training - INFO - **** Epoch 1200 (1200/3000) ****
+2022-11-13 17:27:49,908 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:49,908 - Training - INFO - Training mean loss: 0.078601
+2022-11-13 17:27:49,908 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:49,908 - Training - INFO - Evaluating mean loss: 0.154083
+2022-11-13 17:27:49,909 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:50,347 - Training - INFO - **** Epoch 1400 (1400/3000) ****
+2022-11-13 17:27:50,348 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:50,348 - Training - INFO - Training mean loss: 0.068060
+2022-11-13 17:27:50,348 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:50,348 - Training - INFO - Evaluating mean loss: 0.153134
+2022-11-13 17:27:50,348 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:50,786 - Training - INFO - **** Epoch 1600 (1600/3000) ****
+2022-11-13 17:27:50,786 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:50,787 - Training - INFO - Training mean loss: 0.059878
+2022-11-13 17:27:50,787 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:50,787 - Training - INFO - Evaluating mean loss: 0.152883
+2022-11-13 17:27:50,787 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:51,225 - Training - INFO - **** Epoch 1800 (1800/3000) ****
+2022-11-13 17:27:51,226 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:51,226 - Training - INFO - Training mean loss: 0.053568
+2022-11-13 17:27:51,226 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:51,226 - Training - INFO - Evaluating mean loss: 0.153088
+2022-11-13 17:27:51,226 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 17:27:51,665 - Training - INFO - **** Epoch 2000 (2000/3000) ****
+2022-11-13 17:27:51,665 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:51,666 - Training - INFO - Training mean loss: 0.048137
+2022-11-13 17:27:51,666 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:51,666 - Training - INFO - Evaluating mean loss: 0.154249
+2022-11-13 17:27:51,666 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:52,104 - Training - INFO - **** Epoch 2200 (2200/3000) ****
+2022-11-13 17:27:52,105 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:52,105 - Training - INFO - Training mean loss: 0.043258
+2022-11-13 17:27:52,105 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:52,105 - Training - INFO - Evaluating mean loss: 0.156874
+2022-11-13 17:27:52,105 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:52,544 - Training - INFO - **** Epoch 2400 (2400/3000) ****
+2022-11-13 17:27:52,545 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:52,545 - Training - INFO - Training mean loss: 0.038538
+2022-11-13 17:27:52,545 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:52,545 - Training - INFO - Evaluating mean loss: 0.161083
+2022-11-13 17:27:52,545 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:52,987 - Training - INFO - **** Epoch 2600 (2600/3000) ****
+2022-11-13 17:27:52,988 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:52,988 - Training - INFO - Training mean loss: 0.033817
+2022-11-13 17:27:52,988 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:52,988 - Training - INFO - Evaluating mean loss: 0.166343
+2022-11-13 17:27:52,989 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:53,427 - Training - INFO - **** Epoch 2800 (2800/3000) ****
+2022-11-13 17:27:53,428 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:53,428 - Training - INFO - Training mean loss: 0.029313
+2022-11-13 17:27:53,428 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 17:27:53,428 - Training - INFO - Evaluating mean loss: 0.172196
+2022-11-13 17:27:53,428 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 17:27:53,865 - Training - INFO - **** Epoch 3000 (3000/3000) ****
+2022-11-13 17:27:53,866 - Training - INFO - Learning rate:0.010000
+2022-11-13 17:27:53,866 - Training - INFO - Training mean loss: 0.025345
+2022-11-13 17:27:53,866 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 17:27:53,866 - Training - INFO - Evaluating mean loss: 0.177694
+2022-11-13 17:27:53,867 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 20:18:14,312 - Training - INFO - PARAMETER ...
+2022-11-13 20:18:14,313 - Training - INFO - Namespace(model='mlp', dim=3, hidden=16, epoch=3000, batch_size=1, learning_rate=0.01, log_dir='test', eval_data=[0, 1, 2, 12, 14, 15, 20, 22, 29])
+2022-11-13 20:18:14,314 - Training - INFO - The number of training data is: 21.
+2022-11-13 20:18:14,315 - Training - INFO - The number of validating data is: 9.
+2022-11-13 20:18:14,804 - Training - INFO - **** Epoch 200 (200/3000) ****
+2022-11-13 20:18:14,805 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:14,805 - Training - INFO - Training mean loss: 0.207744
+2022-11-13 20:18:14,805 - Training - INFO - Training accuracy: 0.761905
+2022-11-13 20:18:14,805 - Training - INFO - Evaluating mean loss: 0.222106
+2022-11-13 20:18:14,805 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 20:18:15,331 - Training - INFO - **** Epoch 400 (400/3000) ****
+2022-11-13 20:18:15,331 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:15,331 - Training - INFO - Training mean loss: 0.166835
+2022-11-13 20:18:15,332 - Training - INFO - Training accuracy: 0.857143
+2022-11-13 20:18:15,332 - Training - INFO - Evaluating mean loss: 0.183895
+2022-11-13 20:18:15,332 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:15,855 - Training - INFO - **** Epoch 600 (600/3000) ****
+2022-11-13 20:18:15,855 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:15,855 - Training - INFO - Training mean loss: 0.136009
+2022-11-13 20:18:15,855 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 20:18:15,856 - Training - INFO - Evaluating mean loss: 0.165070
+2022-11-13 20:18:15,856 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:16,377 - Training - INFO - **** Epoch 800 (800/3000) ****
+2022-11-13 20:18:16,378 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:16,378 - Training - INFO - Training mean loss: 0.114242
+2022-11-13 20:18:16,378 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 20:18:16,378 - Training - INFO - Evaluating mean loss: 0.156571
+2022-11-13 20:18:16,378 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:16,898 - Training - INFO - **** Epoch 1000 (1000/3000) ****
+2022-11-13 20:18:16,899 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:16,899 - Training - INFO - Training mean loss: 0.096426
+2022-11-13 20:18:16,899 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 20:18:16,899 - Training - INFO - Evaluating mean loss: 0.154684
+2022-11-13 20:18:16,899 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:17,422 - Training - INFO - **** Epoch 1200 (1200/3000) ****
+2022-11-13 20:18:17,422 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:17,422 - Training - INFO - Training mean loss: 0.081975
+2022-11-13 20:18:17,423 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:17,423 - Training - INFO - Evaluating mean loss: 0.156466
+2022-11-13 20:18:17,423 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:17,948 - Training - INFO - **** Epoch 1400 (1400/3000) ****
+2022-11-13 20:18:17,949 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:17,949 - Training - INFO - Training mean loss: 0.069106
+2022-11-13 20:18:17,949 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:17,949 - Training - INFO - Evaluating mean loss: 0.159260
+2022-11-13 20:18:17,949 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:18,472 - Training - INFO - **** Epoch 1600 (1600/3000) ****
+2022-11-13 20:18:18,473 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:18,473 - Training - INFO - Training mean loss: 0.057508
+2022-11-13 20:18:18,473 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:18,474 - Training - INFO - Evaluating mean loss: 0.160186
+2022-11-13 20:18:18,474 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 20:18:18,997 - Training - INFO - **** Epoch 1800 (1800/3000) ****
+2022-11-13 20:18:18,998 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:18,998 - Training - INFO - Training mean loss: 0.048564
+2022-11-13 20:18:18,998 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:18,998 - Training - INFO - Evaluating mean loss: 0.160953
+2022-11-13 20:18:18,998 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 20:18:19,522 - Training - INFO - **** Epoch 2000 (2000/3000) ****
+2022-11-13 20:18:19,523 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:19,523 - Training - INFO - Training mean loss: 0.041883
+2022-11-13 20:18:19,523 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:19,523 - Training - INFO - Evaluating mean loss: 0.162936
+2022-11-13 20:18:19,524 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 20:18:20,046 - Training - INFO - **** Epoch 2200 (2200/3000) ****
+2022-11-13 20:18:20,047 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:20,047 - Training - INFO - Training mean loss: 0.036607
+2022-11-13 20:18:20,047 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:20,047 - Training - INFO - Evaluating mean loss: 0.166202
+2022-11-13 20:18:20,047 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 20:18:20,572 - Training - INFO - **** Epoch 2400 (2400/3000) ****
+2022-11-13 20:18:20,573 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:20,573 - Training - INFO - Training mean loss: 0.032162
+2022-11-13 20:18:20,573 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:20,573 - Training - INFO - Evaluating mean loss: 0.170527
+2022-11-13 20:18:20,573 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 20:18:21,097 - Training - INFO - **** Epoch 2600 (2600/3000) ****
+2022-11-13 20:18:21,097 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:21,097 - Training - INFO - Training mean loss: 0.028231
+2022-11-13 20:18:21,098 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 20:18:21,098 - Training - INFO - Evaluating mean loss: 0.175684
+2022-11-13 20:18:21,098 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 20:18:21,616 - Training - INFO - **** Epoch 2800 (2800/3000) ****
+2022-11-13 20:18:21,617 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:21,617 - Training - INFO - Training mean loss: 0.024685
+2022-11-13 20:18:21,617 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 20:18:21,617 - Training - INFO - Evaluating mean loss: 0.181238
+2022-11-13 20:18:21,617 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 20:18:22,142 - Training - INFO - **** Epoch 3000 (3000/3000) ****
+2022-11-13 20:18:22,143 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:22,143 - Training - INFO - Training mean loss: 0.021508
+2022-11-13 20:18:22,143 - Training - INFO - Training accuracy: 1.000000
+2022-11-13 20:18:22,143 - Training - INFO - Evaluating mean loss: 0.186668
+2022-11-13 20:18:22,143 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 20:18:44,235 - Training - INFO - PARAMETER ...
+2022-11-13 20:18:44,235 - Training - INFO - Namespace(model='mlp', dim=3, hidden=4, epoch=3000, batch_size=1, learning_rate=0.01, log_dir='test', eval_data=[0, 1, 2, 12, 14, 15, 20, 22, 29])
+2022-11-13 20:18:44,236 - Training - INFO - The number of training data is: 21.
+2022-11-13 20:18:44,237 - Training - INFO - The number of validating data is: 9.
+2022-11-13 20:18:44,724 - Training - INFO - **** Epoch 200 (200/3000) ****
+2022-11-13 20:18:44,725 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:44,725 - Training - INFO - Training mean loss: 0.235614
+2022-11-13 20:18:44,725 - Training - INFO - Training accuracy: 0.571429
+2022-11-13 20:18:44,725 - Training - INFO - Evaluating mean loss: 0.253672
+2022-11-13 20:18:44,725 - Training - INFO - Evaluating accuracy: 0.555556
+
+2022-11-13 20:18:45,247 - Training - INFO - **** Epoch 400 (400/3000) ****
+2022-11-13 20:18:45,247 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:45,248 - Training - INFO - Training mean loss: 0.196033
+2022-11-13 20:18:45,248 - Training - INFO - Training accuracy: 0.857143
+2022-11-13 20:18:45,248 - Training - INFO - Evaluating mean loss: 0.207249
+2022-11-13 20:18:45,248 - Training - INFO - Evaluating accuracy: 0.777778
+
+2022-11-13 20:18:45,770 - Training - INFO - **** Epoch 600 (600/3000) ****
+2022-11-13 20:18:45,771 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:45,771 - Training - INFO - Training mean loss: 0.160491
+2022-11-13 20:18:45,771 - Training - INFO - Training accuracy: 0.857143
+2022-11-13 20:18:45,771 - Training - INFO - Evaluating mean loss: 0.172666
+2022-11-13 20:18:45,771 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:46,294 - Training - INFO - **** Epoch 800 (800/3000) ****
+2022-11-13 20:18:46,294 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:46,295 - Training - INFO - Training mean loss: 0.135761
+2022-11-13 20:18:46,295 - Training - INFO - Training accuracy: 0.857143
+2022-11-13 20:18:46,295 - Training - INFO - Evaluating mean loss: 0.156965
+2022-11-13 20:18:46,295 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:46,817 - Training - INFO - **** Epoch 1000 (1000/3000) ****
+2022-11-13 20:18:46,817 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:46,818 - Training - INFO - Training mean loss: 0.117203
+2022-11-13 20:18:46,818 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 20:18:46,818 - Training - INFO - Evaluating mean loss: 0.147882
+2022-11-13 20:18:46,818 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:47,339 - Training - INFO - **** Epoch 1200 (1200/3000) ****
+2022-11-13 20:18:47,340 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:47,340 - Training - INFO - Training mean loss: 0.102807
+2022-11-13 20:18:47,340 - Training - INFO - Training accuracy: 0.904762
+2022-11-13 20:18:47,340 - Training - INFO - Evaluating mean loss: 0.146584
+2022-11-13 20:18:47,341 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:47,862 - Training - INFO - **** Epoch 1400 (1400/3000) ****
+2022-11-13 20:18:47,863 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:47,863 - Training - INFO - Training mean loss: 0.090677
+2022-11-13 20:18:47,863 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:47,863 - Training - INFO - Evaluating mean loss: 0.151058
+2022-11-13 20:18:47,863 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:48,386 - Training - INFO - **** Epoch 1600 (1600/3000) ****
+2022-11-13 20:18:48,387 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:48,387 - Training - INFO - Training mean loss: 0.079747
+2022-11-13 20:18:48,387 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:48,387 - Training - INFO - Evaluating mean loss: 0.148934
+2022-11-13 20:18:48,387 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:48,913 - Training - INFO - **** Epoch 1800 (1800/3000) ****
+2022-11-13 20:18:48,914 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:48,914 - Training - INFO - Training mean loss: 0.071374
+2022-11-13 20:18:48,914 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:48,915 - Training - INFO - Evaluating mean loss: 0.143999
+2022-11-13 20:18:48,915 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:49,436 - Training - INFO - **** Epoch 2000 (2000/3000) ****
+2022-11-13 20:18:49,437 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:49,437 - Training - INFO - Training mean loss: 0.065294
+2022-11-13 20:18:49,437 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:49,437 - Training - INFO - Evaluating mean loss: 0.140935
+2022-11-13 20:18:49,437 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:49,960 - Training - INFO - **** Epoch 2200 (2200/3000) ****
+2022-11-13 20:18:49,960 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:49,960 - Training - INFO - Training mean loss: 0.060522
+2022-11-13 20:18:49,960 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:49,961 - Training - INFO - Evaluating mean loss: 0.139269
+2022-11-13 20:18:49,961 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:50,484 - Training - INFO - **** Epoch 2400 (2400/3000) ****
+2022-11-13 20:18:50,485 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:50,485 - Training - INFO - Training mean loss: 0.056572
+2022-11-13 20:18:50,485 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:50,485 - Training - INFO - Evaluating mean loss: 0.138452
+2022-11-13 20:18:50,485 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:51,007 - Training - INFO - **** Epoch 2600 (2600/3000) ****
+2022-11-13 20:18:51,008 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:51,008 - Training - INFO - Training mean loss: 0.053206
+2022-11-13 20:18:51,008 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:51,009 - Training - INFO - Evaluating mean loss: 0.138172
+2022-11-13 20:18:51,009 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:51,530 - Training - INFO - **** Epoch 2800 (2800/3000) ****
+2022-11-13 20:18:51,531 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:51,531 - Training - INFO - Training mean loss: 0.050297
+2022-11-13 20:18:51,531 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:51,531 - Training - INFO - Evaluating mean loss: 0.138238
+2022-11-13 20:18:51,531 - Training - INFO - Evaluating accuracy: 0.888889
+
+2022-11-13 20:18:52,053 - Training - INFO - **** Epoch 3000 (3000/3000) ****
+2022-11-13 20:18:52,053 - Training - INFO - Learning rate:0.010000
+2022-11-13 20:18:52,053 - Training - INFO - Training mean loss: 0.047768
+2022-11-13 20:18:52,054 - Training - INFO - Training accuracy: 0.952381
+2022-11-13 20:18:52,054 - Training - INFO - Evaluating mean loss: 0.138501
+2022-11-13 20:18:52,054 - Training - INFO - Evaluating accuracy: 0.888889
+
